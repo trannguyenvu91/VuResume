@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12CD721B1D09B07C00282ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD721A1D09B07C00282ED1 /* AppDelegate.swift */; };
+		12CD721D1D09B07C00282ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD721C1D09B07C00282ED1 /* ViewController.swift */; };
+		12CD72201D09B07C00282ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CD721E1D09B07C00282ED1 /* Main.storyboard */; };
+		12CD72221D09B07C00282ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CD72211D09B07C00282ED1 /* Assets.xcassets */; };
+		12CD72251D09B07C00282ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CD72231D09B07C00282ED1 /* LaunchScreen.storyboard */; };
+		12CD72301D09B07C00282ED1 /* VuResumeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD722F1D09B07C00282ED1 /* VuResumeTests.swift */; };
+		12CD723B1D09B07C00282ED1 /* VuResumeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD723A1D09B07C00282ED1 /* VuResumeUITests.swift */; };
+		12CD72491D09B21800282ED1 /* aoen 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12CD72481D09B21800282ED1 /* aoen 11.jpg */; };
+		12CD724A1D09B21800282ED1 /* aoen 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12CD72481D09B21800282ED1 /* aoen 11.jpg */; };
+		12CD724B1D09B21800282ED1 /* aoen 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12CD72481D09B21800282ED1 /* aoen 11.jpg */; };
+		12CD724D1D09BA9900282ED1 /* IMG_7092.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12CD724C1D09BA9900282ED1 /* IMG_7092.jpg */; };
+		12CD724E1D09BA9900282ED1 /* IMG_7092.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12CD724C1D09BA9900282ED1 /* IMG_7092.jpg */; };
+		12CD724F1D09BA9900282ED1 /* IMG_7092.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12CD724C1D09BA9900282ED1 /* IMG_7092.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12CD722C1D09B07C00282ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12CD720F1D09B07C00282ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12CD72161D09B07C00282ED1;
+			remoteInfo = VuResume;
+		};
+		12CD72371D09B07C00282ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12CD720F1D09B07C00282ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12CD72161D09B07C00282ED1;
+			remoteInfo = VuResume;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12CD72171D09B07C00282ED1 /* VuResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VuResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CD721A1D09B07C00282ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12CD721C1D09B07C00282ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12CD721F1D09B07C00282ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12CD72211D09B07C00282ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12CD72241D09B07C00282ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12CD72261D09B07C00282ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CD722B1D09B07C00282ED1 /* VuResumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuResumeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CD722F1D09B07C00282ED1 /* VuResumeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VuResumeTests.swift; sourceTree = "<group>"; };
+		12CD72311D09B07C00282ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CD72361D09B07C00282ED1 /* VuResumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuResumeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CD723A1D09B07C00282ED1 /* VuResumeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VuResumeUITests.swift; sourceTree = "<group>"; };
+		12CD723C1D09B07C00282ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CD72481D09B21800282ED1 /* aoen 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aoen 11.jpg"; sourceTree = "<group>"; };
+		12CD724C1D09BA9900282ED1 /* IMG_7092.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_7092.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12CD72141D09B07C00282ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CD72281D09B07C00282ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CD72331D09B07C00282ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12CD720E1D09B07C00282ED1 = {
+			isa = PBXGroup;
+			children = (
+				12CD72191D09B07C00282ED1 /* VuResume */,
+				12CD722E1D09B07C00282ED1 /* VuResumeTests */,
+				12CD72391D09B07C00282ED1 /* VuResumeUITests */,
+				12CD72181D09B07C00282ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12CD72181D09B07C00282ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12CD72171D09B07C00282ED1 /* VuResume.app */,
+				12CD722B1D09B07C00282ED1 /* VuResumeTests.xctest */,
+				12CD72361D09B07C00282ED1 /* VuResumeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12CD72191D09B07C00282ED1 /* VuResume */ = {
+			isa = PBXGroup;
+			children = (
+				12CD721A1D09B07C00282ED1 /* AppDelegate.swift */,
+				12CD721C1D09B07C00282ED1 /* ViewController.swift */,
+				12CD721E1D09B07C00282ED1 /* Main.storyboard */,
+				12CD72211D09B07C00282ED1 /* Assets.xcassets */,
+				12CD72231D09B07C00282ED1 /* LaunchScreen.storyboard */,
+				12CD72261D09B07C00282ED1 /* Info.plist */,
+				12CD72481D09B21800282ED1 /* aoen 11.jpg */,
+				12CD724C1D09BA9900282ED1 /* IMG_7092.jpg */,
+			);
+			path = VuResume;
+			sourceTree = "<group>";
+		};
+		12CD722E1D09B07C00282ED1 /* VuResumeTests */ = {
+			isa = PBXGroup;
+			children = (
+				12CD722F1D09B07C00282ED1 /* VuResumeTests.swift */,
+				12CD72311D09B07C00282ED1 /* Info.plist */,
+			);
+			path = VuResumeTests;
+			sourceTree = "<group>";
+		};
+		12CD72391D09B07C00282ED1 /* VuResumeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12CD723A1D09B07C00282ED1 /* VuResumeUITests.swift */,
+				12CD723C1D09B07C00282ED1 /* Info.plist */,
+			);
+			path = VuResumeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12CD72161D09B07C00282ED1 /* VuResume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CD723F1D09B07C00282ED1 /* Build configuration list for PBXNativeTarget "VuResume" */;
+			buildPhases = (
+				12CD72131D09B07C00282ED1 /* Sources */,
+				12CD72141D09B07C00282ED1 /* Frameworks */,
+				12CD72151D09B07C00282ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VuResume;
+			productName = VuResume;
+			productReference = 12CD72171D09B07C00282ED1 /* VuResume.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12CD722A1D09B07C00282ED1 /* VuResumeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CD72421D09B07C00282ED1 /* Build configuration list for PBXNativeTarget "VuResumeTests" */;
+			buildPhases = (
+				12CD72271D09B07C00282ED1 /* Sources */,
+				12CD72281D09B07C00282ED1 /* Frameworks */,
+				12CD72291D09B07C00282ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12CD722D1D09B07C00282ED1 /* PBXTargetDependency */,
+			);
+			name = VuResumeTests;
+			productName = VuResumeTests;
+			productReference = 12CD722B1D09B07C00282ED1 /* VuResumeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12CD72351D09B07C00282ED1 /* VuResumeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CD72451D09B07C00282ED1 /* Build configuration list for PBXNativeTarget "VuResumeUITests" */;
+			buildPhases = (
+				12CD72321D09B07C00282ED1 /* Sources */,
+				12CD72331D09B07C00282ED1 /* Frameworks */,
+				12CD72341D09B07C00282ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12CD72381D09B07C00282ED1 /* PBXTargetDependency */,
+			);
+			name = VuResumeUITests;
+			productName = VuResumeUITests;
+			productReference = 12CD72361D09B07C00282ED1 /* VuResumeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12CD720F1D09B07C00282ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = VuVince;
+				TargetAttributes = {
+					12CD72161D09B07C00282ED1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y8UZ6VLE84;
+					};
+					12CD722A1D09B07C00282ED1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y8UZ6VLE84;
+						TestTargetID = 12CD72161D09B07C00282ED1;
+					};
+					12CD72351D09B07C00282ED1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y8UZ6VLE84;
+						TestTargetID = 12CD72161D09B07C00282ED1;
+					};
+				};
+			};
+			buildConfigurationList = 12CD72121D09B07C00282ED1 /* Build configuration list for PBXProject "VuResume" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12CD720E1D09B07C00282ED1;
+			productRefGroup = 12CD72181D09B07C00282ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12CD72161D09B07C00282ED1 /* VuResume */,
+				12CD722A1D09B07C00282ED1 /* VuResumeTests */,
+				12CD72351D09B07C00282ED1 /* VuResumeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12CD72151D09B07C00282ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CD72251D09B07C00282ED1 /* LaunchScreen.storyboard in Resources */,
+				12CD72221D09B07C00282ED1 /* Assets.xcassets in Resources */,
+				12CD72201D09B07C00282ED1 /* Main.storyboard in Resources */,
+				12CD72491D09B21800282ED1 /* aoen 11.jpg in Resources */,
+				12CD724D1D09BA9900282ED1 /* IMG_7092.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CD72291D09B07C00282ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CD724A1D09B21800282ED1 /* aoen 11.jpg in Resources */,
+				12CD724E1D09BA9900282ED1 /* IMG_7092.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CD72341D09B07C00282ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CD724B1D09B21800282ED1 /* aoen 11.jpg in Resources */,
+				12CD724F1D09BA9900282ED1 /* IMG_7092.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12CD72131D09B07C00282ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CD721D1D09B07C00282ED1 /* ViewController.swift in Sources */,
+				12CD721B1D09B07C00282ED1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CD72271D09B07C00282ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CD72301D09B07C00282ED1 /* VuResumeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CD72321D09B07C00282ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CD723B1D09B07C00282ED1 /* VuResumeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12CD722D1D09B07C00282ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12CD72161D09B07C00282ED1 /* VuResume */;
+			targetProxy = 12CD722C1D09B07C00282ED1 /* PBXContainerItemProxy */;
+		};
+		12CD72381D09B07C00282ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12CD72161D09B07C00282ED1 /* VuResume */;
+			targetProxy = 12CD72371D09B07C00282ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12CD721E1D09B07C00282ED1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CD721F1D09B07C00282ED1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12CD72231D09B07C00282ED1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CD72241D09B07C00282ED1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12CD723D1D09B07C00282ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12CD723E1D09B07C00282ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12CD72401D09B07C00282ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VuResume/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuvince.VuResume;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12CD72411D09B07C00282ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VuResume/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuvince.VuResume;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12CD72431D09B07C00282ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VuResumeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuvince.VuResumeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VuResume.app/VuResume";
+			};
+			name = Debug;
+		};
+		12CD72441D09B07C00282ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VuResumeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuvince.VuResumeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VuResume.app/VuResume";
+			};
+			name = Release;
+		};
+		12CD72461D09B07C00282ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VuResumeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuvince.VuResumeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VuResume;
+			};
+			name = Debug;
+		};
+		12CD72471D09B07C00282ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VuResumeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuvince.VuResumeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VuResume;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12CD72121D09B07C00282ED1 /* Build configuration list for PBXProject "VuResume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CD723D1D09B07C00282ED1 /* Debug */,
+				12CD723E1D09B07C00282ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12CD723F1D09B07C00282ED1 /* Build configuration list for PBXNativeTarget "VuResume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CD72401D09B07C00282ED1 /* Debug */,
+				12CD72411D09B07C00282ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12CD72421D09B07C00282ED1 /* Build configuration list for PBXNativeTarget "VuResumeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CD72431D09B07C00282ED1 /* Debug */,
+				12CD72441D09B07C00282ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12CD72451D09B07C00282ED1 /* Build configuration list for PBXNativeTarget "VuResumeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CD72461D09B07C00282ED1 /* Debug */,
+				12CD72471D09B07C00282ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12CD720F1D09B07C00282ED1 /* Project object */;
+}

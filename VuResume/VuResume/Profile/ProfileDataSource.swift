@@ -23,7 +23,7 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     weak var delegate: ProfileDataSourceDelegate!
     weak var collectionView:UICollectionView!
     var screenWidth = CGRectGetWidth(UIScreen.mainScreen().bounds)
-    var sections = ["Cover", "Content", "Contact"]
+    var sectionNames:[String]!
     
     var detailDict: NSDictionary!
     
@@ -37,6 +37,7 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     }
     
     func commonInit() {
+        sectionNames = ["Cover", "Content", "Contact"]
         
         if let path = NSBundle.mainBundle().pathForResource("Details", ofType: "plist") {
             detailDict = NSDictionary(contentsOfFile: path)
@@ -64,8 +65,10 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
             // contains: ava cell and description cell
             return 2
         } else {
-            let list = detailDict[sections[section]] as! Array
-            return list.count
+            
+            let name = sectionNames[section]
+            let list = detailDict[name]
+            return list!.count
         }
     }
     
@@ -126,8 +129,10 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     }
     
     func configureCell(inout cell:ItemViewCell, atIndexPath indexPath:NSIndexPath) {
-        let list = detailDict[sections[section]] as! [Array]
-        let item = list[indexPath.row] as! [String:String]
+        
+        let name = sectionNames[indexPath.section]
+        let list = detailDict[name]
+        let item = list![indexPath.row] as! [String:String]
 
         for (title, subTitle) in item {
             cell.titleLabel.text = title

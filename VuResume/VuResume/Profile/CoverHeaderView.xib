@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="CoverHeaderView" customModule="VuResume" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="131"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6m5-O6-2cW">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="131"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="6m5-O6-2cW" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="RRH-N3-Ec8"/>
+                <constraint firstAttribute="trailing" secondItem="6m5-O6-2cW" secondAttribute="trailing" id="av5-i0-Xav"/>
+                <constraint firstAttribute="bottom" secondItem="6m5-O6-2cW" secondAttribute="bottom" id="fkg-yX-czo"/>
+                <constraint firstItem="6m5-O6-2cW" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="j57-Bs-Am9"/>
+            </constraints>
+            <connections>
+                <outlet property="imageView" destination="6m5-O6-2cW" id="cVu-qO-OUh"/>
+            </connections>
+            <point key="canvasLocation" x="239" y="237.5"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="cover2.jpg" width="2500" height="711"/>
+    </resources>
+</document>

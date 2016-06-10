@@ -2,24 +2,24 @@
 //  ViewController.swift
 //  VuResume
 //
-//  Created by VuVince on 6/9/16.
+//  Created by Vince Tran on 6/10/16.
 //  Copyright © 2016 VuVince. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
 }
-

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Location</key>
+	<dict>
+		<key>Lat</key>
+		<real>21.4</real>
+		<key>Long</key>
+		<real>122.4</real>
+	</dict>
+	<key>Content</key>
+	<array>
+		<dict>
+			<key>Education</key>
+			<string>Bachelor Degree</string>
+		</dict>
+		<dict>
+			<key>Work Experience</key>
+			<string>3 years in iOS Development</string>
+		</dict>
+		<dict>
+			<key>Projects</key>
+			<string>6 Projects</string>
+		</dict>
+		<dict>
+			<key>Skills and Competences</key>
+			<string>Solid background in Objective C and Swift...</string>
+		</dict>
+		<dict>
+			<key>Personalities</key>
+			<string>Productive, creative and well organized</string>
+		</dict>
+	</array>
+	<key>Contact</key>
+	<array>
+		<dict>
+			<key>Email</key>
+			<string>trannguyenvu91@gmail.com</string>
+		</dict>
+		<dict>
+			<key>Skype ID</key>
+			<string>vince.bk</string>
+		</dict>
+		<dict>
+			<key>Mobile Phone</key>
+			<string>0986341572</string>
+		</dict>
+		<dict>
+			<key>Address</key>
+			<string>Hanoi, Vietnam</string>
+		</dict>
+	</array>
+</dict>
+</plist>

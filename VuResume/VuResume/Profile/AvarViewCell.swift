@@ -16,6 +16,7 @@ class AvarViewCell: UICollectionViewCell {
         // Initialization code
         btnAva.layer.masksToBounds = true
         btnAva.layer.cornerRadius = 18
+        self.backgroundColor = UIColor.clearColor()
     }
     
     class func nibFile() -> UINib {

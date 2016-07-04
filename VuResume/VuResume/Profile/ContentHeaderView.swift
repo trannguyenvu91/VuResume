@@ -13,6 +13,22 @@ class ContentHeaderView: UICollectionReusableView {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        self.backgroundColor = UIColor.clearColor()
+    }
+    
+    override func drawRect(rect: CGRect) {
+        super.drawRect(rect)
+        
+        UIColor.whiteColor().colorWithAlphaComponent(0.4).setStroke()
+        let divideLine = UIBezierPath()
+        divideLine.moveToPoint(CGPointMake(12, CGRectGetHeight(rect)))
+        divideLine.addLineToPoint(CGPointMake(CGRectGetWidth(rect) - 12, CGRectGetHeight(rect)))
+        divideLine.closePath()
+        divideLine.lineWidth = 0.5
+        
+        divideLine.stroke()
+        
     }
     
     class func nibFile() -> UINib {
@@ -21,7 +37,7 @@ class ContentHeaderView: UICollectionReusableView {
     
     class func sizeForContentHeaderView() -> CGSize {
         let screenWidth = CGRectGetWidth(UIScreen.mainScreen().bounds)
-        return CGSizeMake(screenWidth, 36)
+        return CGSizeMake(screenWidth, 50)
     }
     
 }

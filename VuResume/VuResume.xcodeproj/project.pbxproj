@@ -56,6 +56,10 @@
 		0EAF785B1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* ContentHeaderView.xib */; };
 		0EAF785C1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* ContentHeaderView.xib */; };
 		0EAF785D1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* ContentHeaderView.xib */; };
+		1248DAD31D0D7E4300DEBA97 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */; };
+		1248DAD41D0D7E4300DEBA97 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */; };
+		1248DAD51D0D7E4300DEBA97 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */; };
+		12BECB981D2AB60E004A44FA /* btn-right-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 12BECB971D2AB60E004A44FA /* btn-right-white.png */; };
 		12CD721B1D09B07C00282ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD721A1D09B07C00282ED1 /* AppDelegate.swift */; };
 		12CD72201D09B07C00282ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CD721E1D09B07C00282ED1 /* Main.storyboard */; };
 		12CD72221D09B07C00282ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CD72211D09B07C00282ED1 /* Assets.xcassets */; };
@@ -102,6 +106,8 @@
 		0E2F47E31D0AAB63007BB1D1 /* Details.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Details.plist; path = Profile/Details.plist; sourceTree = "<group>"; };
 		0EAF78581D0ABED900FFB1F3 /* ItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemViewCell.xib; sourceTree = "<group>"; };
 		0EAF785A1D0ABEF900FFB1F3 /* ContentHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentHeaderView.xib; sourceTree = "<group>"; };
+		1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
+		12BECB971D2AB60E004A44FA /* btn-right-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-right-white.png"; sourceTree = "<group>"; };
 		12CD72171D09B07C00282ED1 /* VuResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VuResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CD721A1D09B07C00282ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12CD721F1D09B07C00282ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -208,10 +214,12 @@
 				0E2F479D1D0A545B007BB1D1 /* Profile */,
 				12CD72211D09B07C00282ED1 /* Assets.xcassets */,
 				12CD72231D09B07C00282ED1 /* LaunchScreen.storyboard */,
+				1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */,
 				12CD72261D09B07C00282ED1 /* Info.plist */,
 				12CD724C1D09BA9900282ED1 /* ava.jpg */,
 				0E2F47B31D0A5C02007BB1D1 /* cover1.jpg */,
 				0E2F47B71D0A5CC5007BB1D1 /* cover2.jpg */,
+				12BECB971D2AB60E004A44FA /* btn-right-white.png */,
 			);
 			path = VuResume;
 			sourceTree = "<group>";
@@ -343,10 +351,12 @@
 			files = (
 				0EAF78591D0ABED900FFB1F3 /* ItemViewCell.xib in Resources */,
 				12CD72251D09B07C00282ED1 /* LaunchScreen.storyboard in Resources */,
+				1248DAD31D0D7E4300DEBA97 /* Untitled-1.png in Resources */,
 				0E2F47B81D0A5CC5007BB1D1 /* cover2.jpg in Resources */,
 				12CD72221D09B07C00282ED1 /* Assets.xcassets in Resources */,
 				12CD72201D09B07C00282ED1 /* Main.storyboard in Resources */,
 				0EAF785B1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */,
+				12BECB981D2AB60E004A44FA /* btn-right-white.png in Resources */,
 				0E2F47B41D0A5C02007BB1D1 /* cover1.jpg in Resources */,
 				0E2F47A31D0A5502007BB1D1 /* CoverHeaderView.xib in Resources */,
 				0E2F47E41D0AAB63007BB1D1 /* Details.plist in Resources */,
@@ -363,6 +373,7 @@
 				0E2F47C11D0A5D7F007BB1D1 /* DesciptionViewCell.xib in Resources */,
 				0E2F47AD1D0A575F007BB1D1 /* AvarViewCell.xib in Resources */,
 				0E2F47A41D0A5502007BB1D1 /* CoverHeaderView.xib in Resources */,
+				1248DAD41D0D7E4300DEBA97 /* Untitled-1.png in Resources */,
 				0E2F47B91D0A5CC5007BB1D1 /* cover2.jpg in Resources */,
 				0E2F47B51D0A5C02007BB1D1 /* cover1.jpg in Resources */,
 				0EAF785C1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */,
@@ -378,6 +389,7 @@
 				0E2F47C21D0A5D7F007BB1D1 /* DesciptionViewCell.xib in Resources */,
 				0E2F47AE1D0A575F007BB1D1 /* AvarViewCell.xib in Resources */,
 				0E2F47A51D0A5502007BB1D1 /* CoverHeaderView.xib in Resources */,
+				1248DAD51D0D7E4300DEBA97 /* Untitled-1.png in Resources */,
 				0E2F47BA1D0A5CC5007BB1D1 /* cover2.jpg in Resources */,
 				0E2F47B61D0A5C02007BB1D1 /* cover1.jpg in Resources */,
 				0EAF785D1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */,

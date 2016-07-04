@@ -41,6 +41,7 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
         
         if let path = NSBundle.mainBundle().pathForResource("Details", ofType: "plist") {
             detailDict = NSDictionary(contentsOfFile: path)
+            
         }
         
         collectionView.registerNib(AvarViewCell.nibFile(), forCellWithReuseIdentifier: kAvarViewCell)
@@ -116,6 +117,14 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
         }
     }
     
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 0
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 0
+    }
+    
     //MARK: - Configure Cells
     func cellInBasicSection(atIndexPath indexPath:NSIndexPath) -> UICollectionViewCell {
         if indexPath.row == 0 {
@@ -131,13 +140,17 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     func configureCell(inout cell:ItemViewCell, atIndexPath indexPath:NSIndexPath) {
         
         let name = sectionNames[indexPath.section]
-        let list = detailDict[name]
-        let item = list![indexPath.row] as! [String:String]
-
-        for (title, subTitle) in item {
-            cell.titleLabel.text = title
-            cell.subTitleLabel.text = subTitle
+        
+        if let list = detailDict.objectForKey(name) {
+            
+            let item = list.objectAtIndex(indexPath.row) as! [String:String]
+            
+            for (title, subTitle) in item {
+                cell.titleLabel.text = title
+                cell.subTitleLabel.text = subTitle
+            }
         }
+        
         
     }
 }

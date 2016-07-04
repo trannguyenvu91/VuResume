@@ -15,6 +15,22 @@ class ItemViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        self.backgroundColor = UIColor.clearColor()
+    }
+    
+    override func drawRect(rect: CGRect) {
+        super.drawRect(rect)
+        
+        UIColor.whiteColor().colorWithAlphaComponent(0.4).setStroke()
+        let divideLine = UIBezierPath()
+        divideLine.moveToPoint(CGPointMake(8, CGRectGetHeight(rect)))
+        divideLine.addLineToPoint(CGPointMake(CGRectGetWidth(rect) - 8, CGRectGetHeight(rect)))
+        divideLine.closePath()
+        divideLine.lineWidth = 0.5
+        
+        divideLine.stroke()
+        
     }
     
     class func nibFile() -> UINib {
@@ -23,7 +39,7 @@ class ItemViewCell: UICollectionViewCell {
     
     class func sizeForItemViewCell() -> CGSize {
         let screenWidth = CGRectGetWidth(UIScreen.mainScreen().bounds)
-        return CGSizeMake(screenWidth, 54)
+        return CGSizeMake(screenWidth, 48)
     }
 
 }

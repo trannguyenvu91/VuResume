@@ -28,6 +28,8 @@ class CoverHeaderView: UICollectionReusableView {
         gradient.colors = [color1.CGColor, color2.CGColor]
         gradient.locations = [0.0, 0.7]
         imageView.layer.addSublayer(gradient)
+        
+        self.layer.masksToBounds = true
 
     }
     

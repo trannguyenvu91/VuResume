@@ -16,6 +16,14 @@ class CoverHeaderView: UICollectionReusableView {
         // Initialization code
         
         
+        
+        self.layer.masksToBounds = true
+
+    }
+    
+    override func drawRect(rect: CGRect) {
+        super.drawRect(rect)
+        
         let screenWidth = CGRectGetWidth(UIScreen.mainScreen().bounds) + 20
         let height = CoverHeaderView.sizeForCoverHeader().height
         let color1 = UIColor.clearColor()
@@ -29,8 +37,6 @@ class CoverHeaderView: UICollectionReusableView {
         gradient.locations = [0.0, 0.7]
         imageView.layer.addSublayer(gradient)
         
-        self.layer.masksToBounds = true
-
     }
     
     class func nibFile() -> UINib {

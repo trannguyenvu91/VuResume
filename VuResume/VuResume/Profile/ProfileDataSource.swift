@@ -15,8 +15,8 @@ let kItemViewCell        =   "ItemViewCell"
 let kCoverHeaderView     =   "CoverHeaderView"
 let kContentHeaderView   =   "ContentHeaderView"
 
-protocol ProfileDataSourceDelegate:NSObjectProtocol {
-    
+@objc protocol ProfileDataSourceDelegate:NSObjectProtocol {
+    func profileDataSource(dataSource:ProfileDataSource, openProjectsBySelectingAtIndexPath indexPath:NSIndexPath)
 }
 
 class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -86,10 +86,11 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     
     func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView {
         if indexPath.section == 0 {
-            let header = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: kCoverHeaderView, forIndexPath: indexPath)
+            let header = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: kCoverHeaderView, forIndexPath: indexPath) as! CoverHeaderView
             return header
         } else {
-            let header = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: kContentHeaderView, forIndexPath: indexPath)
+            let header = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: kContentHeaderView, forIndexPath: indexPath) as! ContentHeaderView
+            header.titleLabel.text = sectionNames[indexPath.section]
             return header
         }
     }
@@ -125,6 +126,15 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
         return 0
     }
     
+    //MARK: - UICollectionViewDelegate
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        collectionView.deselectItemAtIndexPath(indexPath, animated: true)
+        if self.delegate.respondsToSelector(#selector(ProfileDataSourceDelegate.profileDataSource(_:openProjectsBySelectingAtIndexPath:))) {
+            self.delegate.profileDataSource(self, openProjectsBySelectingAtIndexPath: indexPath)
+        }
+    }
+    
+    
     //MARK: - Configure Cells
     func cellInBasicSection(atIndexPath indexPath:NSIndexPath) -> UICollectionViewCell {
         if indexPath.row == 0 {
@@ -140,11 +150,9 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     func configureCell(inout cell:ItemViewCell, atIndexPath indexPath:NSIndexPath) {
         
         let name = sectionNames[indexPath.section]
-        
         if let list = detailDict.objectForKey(name) {
             
             let item = list.objectAtIndex(indexPath.row) as! [String:String]
-            
             for (title, subTitle) in item {
                 cell.titleLabel.text = title
                 cell.subTitleLabel.text = subTitle

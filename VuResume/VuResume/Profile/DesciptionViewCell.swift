@@ -18,6 +18,7 @@ class DesciptionViewCell: UICollectionViewCell {
     class func nibFile() -> UINib {
         return UINib.init(nibName: "DesciptionViewCell", bundle: NSBundle.mainBundle())
     }
+    
 
     class func sizeForDesciptionViewCell() -> CGSize {
         let screenWidth = CGRectGetWidth(UIScreen.mainScreen().bounds)

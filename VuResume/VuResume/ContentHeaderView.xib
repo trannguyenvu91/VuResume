@@ -11,9 +11,9 @@
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56C-M3-m98">
-                    <rect key="frame" x="16" y="7" width="288" height="21"/>
+                    <rect key="frame" x="16" y="6" width="288" height="22"/>
                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
@@ -23,6 +23,9 @@
                 <constraint firstItem="56C-M3-m98" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="16" id="cKB-XE-aZE"/>
                 <constraint firstAttribute="bottom" secondItem="56C-M3-m98" secondAttribute="bottom" constant="8" id="lGi-YQ-2OH"/>
             </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="56C-M3-m98" id="hQG-5M-cFt"/>
+            </connections>
             <point key="canvasLocation" x="305" y="373"/>
         </collectionReusableView>
     </objects>

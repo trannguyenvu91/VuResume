@@ -9,12 +9,6 @@
 import UIKit
 
 
-let kAvarViewCell        =   "AvarViewCell"
-let kDescriptionViewCell =   "DescriptionViewCell"
-let kItemViewCell        =   "ItemViewCell"
-let kCoverHeaderView     =   "CoverHeaderView"
-let kContentHeaderView   =   "ContentHeaderView"
-
 @objc protocol ProfileDataSourceDelegate:NSObjectProtocol {
     func profileDataSource(dataSource:ProfileDataSource, openProjectsBySelectingAtIndexPath indexPath:NSIndexPath)
 }
@@ -27,6 +21,11 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     
     var detailDict: NSDictionary!
     
+    let kAvarViewCell        =   "AvarViewCell"
+    let kDescriptionViewCell =   "DescriptionViewCell"
+    let kItemViewCell        =   "ItemViewCell"
+    let kCoverHeaderView     =   "CoverHeaderView"
+    let kContentHeaderView   =   "ContentHeaderView"
 
     init(delegate:ProfileDataSourceDelegate, collectionView:UICollectionView) {
         super.init()
@@ -140,6 +139,8 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
         if indexPath.row == 0 {
             //return avar cell
             let avaCell = collectionView.dequeueReusableCellWithReuseIdentifier(kAvarViewCell, forIndexPath: indexPath) as! AvarViewCell
+            avaCell.nameLabel.text = "Vu Tran"
+            avaCell.sub1Label.text = "iOS Developer"
             return avaCell
         } else {
             let desCell = collectionView.dequeueReusableCellWithReuseIdentifier(kDescriptionViewCell, forIndexPath: indexPath) as! DesciptionViewCell

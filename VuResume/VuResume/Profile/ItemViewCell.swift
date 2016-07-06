@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ItemViewCell: UICollectionViewCell {
+class ItemViewCell: VRCollectionCell {
 
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subTitleLabel: UILabel!
@@ -20,7 +20,6 @@ class ItemViewCell: UICollectionViewCell {
     }
     
     override func drawRect(rect: CGRect) {
-        super.drawRect(rect)
         
         UIColor.whiteColor().colorWithAlphaComponent(0.4).setStroke()
         let divideLine = UIBezierPath()
@@ -37,26 +36,6 @@ class ItemViewCell: UICollectionViewCell {
         return UINib.init(nibName: "ItemViewCell", bundle: NSBundle.mainBundle())
     }
     
-    override var selected: Bool {
-        didSet {
-            if selected {
-                self.contentView.alpha = 0.3
-            } else {
-                self.contentView.alpha = 1.0
-            }
-        }
-    }
-    
-    override var highlighted: Bool {
-        didSet {
-            if highlighted {
-                self.contentView.alpha = 0.3
-            } else {
-                self.contentView.alpha = 1.0
-            }
-        }
-    }
-
     
     class func sizeForItemViewCell() -> CGSize {
         let screenWidth = CGRectGetWidth(UIScreen.mainScreen().bounds)

@@ -1,31 +1,29 @@
 //
-//  InfoViewCell.swift
+//  VRProjectCell.swift
 //  VuResume
 //
-//  Created by Vince Tran on 6/10/16.
+//  Created by Vince Tran on 7/6/16.
 //  Copyright © 2016 VuVince. All rights reserved.
 //
 
 import UIKit
 
-class AvarViewCell: UICollectionViewCell {
-
+class VRProjectCell: VRCollectionCell {
+    
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var sub1Label: UILabel!
-    @IBOutlet weak var btnAva: UIButton!
+    @IBOutlet weak var sub2Label: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        btnAva.layer.masksToBounds = true
-        btnAva.layer.cornerRadius = 18
+        imageView.layer.masksToBounds = true
+        imageView.layer.cornerRadius = 12
         self.backgroundColor = UIColor.clearColor()
     }
     
-    class func nibFile() -> UINib {
-        return UINib.init(nibName: "AvarViewCell", bundle: NSBundle.mainBundle())
-    }
-    
-    class func sizeForAvarViewCell() -> CGSize {
+    class func sizeForProjectCell() -> CGSize {
         let screenWidth = CGRectGetWidth(UIScreen.mainScreen().bounds)
         return CGSizeMake(screenWidth, 85)
     }

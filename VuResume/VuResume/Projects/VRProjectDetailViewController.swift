@@ -1,39 +1,27 @@
 //
-//  VRProjectsViewController.swift
+//  VRProjectDetailViewController.swift
 //  VuResume
 //
-//  Created by Vince Tran on 7/5/16.
+//  Created by Vince Tran on 7/6/16.
 //  Copyright © 2016 VuVince. All rights reserved.
 //
 
 import UIKit
 
-class VRProjectsViewController: UIViewController, VRProjectsDataSourceDelegate {
-    
-    var dataSource:VRProjectsDataSource!
-    @IBOutlet weak var collectionView: UICollectionView!
-    
+class VRProjectDetailViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        dataSource = VRProjectsDataSource(delegate: self, collectionView: collectionView)
-        
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        
     }
     
 
-    //MARK: - VRProjectsDataSourceDelegate
-    func projectsDataSource(dataSource: VRProjectsDataSource, openProjectBySelectingAtIndexPath indexPath: NSIndexPath) {
-        
-    }
-    
-    
-    
     /*
     // MARK: - Navigation
 

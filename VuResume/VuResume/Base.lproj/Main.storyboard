@@ -163,10 +163,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="A7l-8N-3rG">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="A7l-8N-3rG">
                                 <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gRB-sV-Txz">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="gRB-sV-Txz">
                                     <size key="itemSize" width="320" height="90"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -226,6 +226,58 @@
                                             <outlet property="sub1Label" destination="zgC-RC-92l" id="AP1-RD-m8L"/>
                                             <outlet property="sub2Label" destination="mnh-xQ-w5M" id="kIw-Xm-QSJ"/>
                                         </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ecj-r8-eEU">
+                                        <rect key="frame" x="4" y="154" width="320" height="82"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42b-UK-B8A">
+                                                    <rect key="frame" x="8" y="3" width="75" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spx-cW-9wK">
+                                                    <rect key="frame" x="8" y="21" width="304" height="53"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="13"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="spx-cW-9wK" firstAttribute="top" secondItem="42b-UK-B8A" secondAttribute="bottom" constant="1" id="39a-YC-9Oj"/>
+                                            <constraint firstItem="42b-UK-B8A" firstAttribute="leading" secondItem="Ecj-r8-eEU" secondAttribute="leadingMargin" id="KZP-bf-iRf"/>
+                                            <constraint firstItem="spx-cW-9wK" firstAttribute="trailing" secondItem="Ecj-r8-eEU" secondAttribute="trailingMargin" id="m3M-Jc-XGu"/>
+                                            <constraint firstItem="42b-UK-B8A" firstAttribute="top" secondItem="Ecj-r8-eEU" secondAttribute="topMargin" constant="-5" id="m7q-nc-u1Q"/>
+                                            <constraint firstItem="spx-cW-9wK" firstAttribute="bottom" secondItem="Ecj-r8-eEU" secondAttribute="bottomMargin" id="pkm-1e-xK8"/>
+                                            <constraint firstItem="spx-cW-9wK" firstAttribute="leading" secondItem="Ecj-r8-eEU" secondAttribute="leadingMargin" id="xsf-Rg-WLJ"/>
+                                        </constraints>
+                                        <size key="customSize" width="320" height="82"/>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="pSe-Me-0yH">
+                                        <rect key="frame" x="4" y="236" width="320" height="204"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="204"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ul-I3-HuV">
+                                                    <rect key="frame" x="8" y="3" width="45" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="3Ul-I3-HuV" firstAttribute="top" secondItem="pSe-Me-0yH" secondAttribute="topMargin" constant="-5" id="E6O-Yz-qLu"/>
+                                            <constraint firstItem="3Ul-I3-HuV" firstAttribute="leading" secondItem="pSe-Me-0yH" secondAttribute="leadingMargin" id="iSQ-0m-dPT"/>
+                                        </constraints>
+                                        <size key="customSize" width="320" height="204"/>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>

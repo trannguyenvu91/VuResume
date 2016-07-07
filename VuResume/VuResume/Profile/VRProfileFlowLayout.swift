@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileFlowLayout: UICollectionViewFlowLayout {
+class VRProfileFlowLayout: UICollectionViewFlowLayout {
     override func shouldInvalidateLayoutForBoundsChange(newBounds: CGRect) -> Bool {
         return true
     }
@@ -19,7 +19,7 @@ class ProfileFlowLayout: UICollectionViewFlowLayout {
             if attribute.representedElementCategory == .SupplementaryView && attribute.indexPath.section == 0{
                 let offsetY = self.collectionView?.contentOffset.y
                 if offsetY < 0 {
-                    let oldSize = CoverHeaderView.sizeForCoverHeader()
+                    let oldSize = VRCoverHeaderView.sizeForCoverHeader()
                     
                     let newFrame = CGRectMake(4, offsetY!, oldSize.width, oldSize.height)
                     attribute.frame = newFrame

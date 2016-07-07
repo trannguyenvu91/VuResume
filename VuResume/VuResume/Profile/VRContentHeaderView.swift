@@ -1,5 +1,5 @@
 //
-//  ItemViewCell.swift
+//  ContactReusableView.swift
 //  VuResume
 //
 //  Created by Vince Tran on 6/10/16.
@@ -8,10 +8,9 @@
 
 import UIKit
 
-class ItemViewCell: VRCollectionCell {
+class VRContentHeaderView: UICollectionReusableView {
 
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var subTitleLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,11 +19,12 @@ class ItemViewCell: VRCollectionCell {
     }
     
     override func drawRect(rect: CGRect) {
+        super.drawRect(rect)
         
         UIColor.whiteColor().colorWithAlphaComponent(0.4).setStroke()
         let divideLine = UIBezierPath()
-        divideLine.moveToPoint(CGPointMake(8, CGRectGetHeight(rect)))
-        divideLine.addLineToPoint(CGPointMake(CGRectGetWidth(rect) - 8, CGRectGetHeight(rect)))
+        divideLine.moveToPoint(CGPointMake(12, CGRectGetHeight(rect)))
+        divideLine.addLineToPoint(CGPointMake(CGRectGetWidth(rect) - 12, CGRectGetHeight(rect)))
         divideLine.closePath()
         divideLine.lineWidth = 0.5
         
@@ -33,13 +33,12 @@ class ItemViewCell: VRCollectionCell {
     }
     
     class func nibFile() -> UINib {
-        return UINib.init(nibName: "ItemViewCell", bundle: NSBundle.mainBundle())
+        return UINib.init(nibName: "VRContentHeaderView", bundle: NSBundle.mainBundle())
     }
     
-    
-    class func sizeForItemViewCell() -> CGSize {
+    class func sizeForContentHeaderView() -> CGSize {
         let screenWidth = CGRectGetWidth(UIScreen.mainScreen().bounds)
-        return CGSizeMake(screenWidth, 48)
+        return CGSizeMake(screenWidth, 50)
     }
-
+    
 }

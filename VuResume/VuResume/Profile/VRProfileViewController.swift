@@ -8,10 +8,10 @@
 
 import UIKit
 
-class ProfileViewController: BaseViewController, ProfileDataSourceDelegate {
+class VRProfileViewController: BaseViewController, VRProfileDataSourceDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
-    var dataSource:ProfileDataSource!
+    var dataSource:VRProfileDataSource!
     
     
     override func viewDidLoad() {
@@ -21,7 +21,8 @@ class ProfileViewController: BaseViewController, ProfileDataSourceDelegate {
         
         let color2 = UIColor.init(colorLiteralRed: 38.0/255.0, green: 56.0/255.0, blue: 44.0/255.0, alpha: 1.0)
         collectionView.backgroundColor = color2
-        dataSource = ProfileDataSource(delegate: self, collectionView: self.collectionView)
+        collectionView.contentInset = UIEdgeInsetsMake(0, 0, 90, 0)
+        dataSource = VRProfileDataSource(delegate: self, collectionView: collectionView)
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,8 +33,20 @@ class ProfileViewController: BaseViewController, ProfileDataSourceDelegate {
 
     
     // MARK: - ProfileDataSourceDelegate
-    func profileDataSource(dataSource: ProfileDataSource, openProjectsBySelectingAtIndexPath indexPath: NSIndexPath) {
-        performSegueWithIdentifier("Projects", sender: self)
+    func profileDataSource(dataSource: VRProfileDataSource, openProjectsBySelectingAtIndexPath indexPath: NSIndexPath) {
+        
+        if indexPath.section == 1 {
+            
+            if indexPath.row == 1{
+                performSegueWithIdentifier("Experience", sender: self)
+            } else if indexPath.row == 2 {
+                performSegueWithIdentifier("Projects", sender: self)
+            } else if indexPath.row == 3 {
+                performSegueWithIdentifier("Competences", sender: self)
+            }
+        }
+        
+        
     }
     
     

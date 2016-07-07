@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CoverHeaderView: UICollectionReusableView {
+class VRCoverHeaderView: UICollectionReusableView {
 
     @IBOutlet weak var imageView: UIImageView!
     override func awakeFromNib() {
@@ -17,7 +17,7 @@ class CoverHeaderView: UICollectionReusableView {
         
         
         let screenWidth = CGRectGetWidth(UIScreen.mainScreen().bounds) + 20
-        let height = CoverHeaderView.sizeForCoverHeader().height
+        let height = VRCoverHeaderView.sizeForCoverHeader().height
         let color1 = UIColor.clearColor()
         let color2 = UIColor.init(colorLiteralRed: 38.0/255.0, green: 56.0/255.0, blue: 44.0/255.0, alpha: 1.0)
         
@@ -34,7 +34,7 @@ class CoverHeaderView: UICollectionReusableView {
     }
     
     class func nibFile() -> UINib {
-        return UINib.init(nibName: "CoverHeaderView", bundle: NSBundle.mainBundle())
+        return UINib.init(nibName: "VRCoverHeaderView", bundle: NSBundle.mainBundle())
     }
     
     class func sizeForCoverHeader() -> CGSize {

@@ -14,6 +14,7 @@ class VRProjectCell: VRCollectionCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var sub1Label: UILabel!
     @IBOutlet weak var sub2Label: UILabel!
+    @IBOutlet weak var btnAppStore: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()

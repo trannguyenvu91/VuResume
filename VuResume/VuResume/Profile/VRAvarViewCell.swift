@@ -8,8 +8,10 @@
 
 import UIKit
 
-class AvarViewCell: UICollectionViewCell {
+class VRAvarViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var sub1Label: UILabel!
     @IBOutlet weak var btnAva: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,7 +22,7 @@ class AvarViewCell: UICollectionViewCell {
     }
     
     class func nibFile() -> UINib {
-        return UINib.init(nibName: "AvarViewCell", bundle: NSBundle.mainBundle())
+        return UINib.init(nibName: "VRAvarViewCell", bundle: NSBundle.mainBundle())
     }
     
     class func sizeForAvarViewCell() -> CGSize {

@@ -9,26 +9,25 @@
 import UIKit
 
 
-let kAvarViewCell        =   "AvarViewCell"
-let kDescriptionViewCell =   "DescriptionViewCell"
-let kItemViewCell        =   "ItemViewCell"
-let kCoverHeaderView     =   "CoverHeaderView"
-let kContentHeaderView   =   "ContentHeaderView"
-
-@objc protocol ProfileDataSourceDelegate:NSObjectProtocol {
-    func profileDataSource(dataSource:ProfileDataSource, openProjectsBySelectingAtIndexPath indexPath:NSIndexPath)
+@objc protocol VRProfileDataSourceDelegate:NSObjectProtocol {
+    func profileDataSource(dataSource:VRProfileDataSource, openProjectsBySelectingAtIndexPath indexPath:NSIndexPath)
 }
 
-class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    weak var delegate: ProfileDataSourceDelegate!
+class VRProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    weak var delegate: VRProfileDataSourceDelegate!
     weak var collectionView:UICollectionView!
     var screenWidth = CGRectGetWidth(UIScreen.mainScreen().bounds)
     var sectionNames:[String]!
     
     var detailDict: NSDictionary!
     
+    let kAvarViewCell        =   "VRAvarViewCell"
+    let kDescriptionViewCell =   "VRDescriptionViewCell"
+    let kItemViewCell        =   "VRItemViewCell"
+    let kCoverHeaderView     =   "VRCoverHeaderView"
+    let kContentHeaderView   =   "VRContentHeaderView"
 
-    init(delegate:ProfileDataSourceDelegate, collectionView:UICollectionView) {
+    init(delegate:VRProfileDataSourceDelegate, collectionView:UICollectionView) {
         super.init()
         
         self.delegate = delegate
@@ -44,12 +43,12 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
             
         }
         
-        collectionView.registerNib(AvarViewCell.nibFile(), forCellWithReuseIdentifier: kAvarViewCell)
-        collectionView.registerNib(DesciptionViewCell.nibFile(), forCellWithReuseIdentifier: kDescriptionViewCell)
-        collectionView.registerNib(ItemViewCell.nibFile(), forCellWithReuseIdentifier: kItemViewCell)
+        collectionView.registerNib(VRAvarViewCell.nibFile(), forCellWithReuseIdentifier: kAvarViewCell)
+        collectionView.registerNib(VRDesciptionViewCell.nibFile(), forCellWithReuseIdentifier: kDescriptionViewCell)
+        collectionView.registerNib(VRItemViewCell.nibFile(), forCellWithReuseIdentifier: kItemViewCell)
         
-        collectionView.registerNib(CoverHeaderView.nibFile(), forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: kCoverHeaderView)
-        collectionView.registerNib(ContentHeaderView.nibFile(), forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: kContentHeaderView)
+        collectionView.registerNib(VRCoverHeaderView.nibFile(), forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: kCoverHeaderView)
+        collectionView.registerNib(VRContentHeaderView.nibFile(), forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: kContentHeaderView)
         
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -78,7 +77,7 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
         if indexPath.section == 0 {
             return cellInBasicSection(atIndexPath: indexPath)
         } else {
-            var cell = collectionView.dequeueReusableCellWithReuseIdentifier(kItemViewCell, forIndexPath: indexPath) as! ItemViewCell
+            var cell = collectionView.dequeueReusableCellWithReuseIdentifier(kItemViewCell, forIndexPath: indexPath) as! VRItemViewCell
             configureCell(&cell, atIndexPath: indexPath)
             return cell
         }
@@ -86,10 +85,10 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     
     func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView {
         if indexPath.section == 0 {
-            let header = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: kCoverHeaderView, forIndexPath: indexPath) as! CoverHeaderView
+            let header = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: kCoverHeaderView, forIndexPath: indexPath) as! VRCoverHeaderView
             return header
         } else {
-            let header = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: kContentHeaderView, forIndexPath: indexPath) as! ContentHeaderView
+            let header = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: kContentHeaderView, forIndexPath: indexPath) as! VRContentHeaderView
             header.titleLabel.text = sectionNames[indexPath.section]
             return header
         }
@@ -99,9 +98,9 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     //MARK: - UICollectionViewDelegateFlowLayout
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
         if section == 0 {
-            return CoverHeaderView.sizeForCoverHeader()
+            return VRCoverHeaderView.sizeForCoverHeader()
         } else {
-            return ContentHeaderView.sizeForContentHeaderView()
+            return VRContentHeaderView.sizeForContentHeaderView()
         }
     }
     
@@ -109,12 +108,12 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
         
         if indexPath.section == 0 {
             if indexPath.row == 0{
-                return AvarViewCell.sizeForAvarViewCell()
+                return VRAvarViewCell.sizeForAvarViewCell()
             } else {
-                return DesciptionViewCell.sizeForDesciptionViewCell()
+                return VRDesciptionViewCell.sizeForDesciptionViewCell()
             }
         } else {
-            return ItemViewCell.sizeForItemViewCell()
+            return VRItemViewCell.sizeForItemViewCell()
         }
     }
     
@@ -129,7 +128,7 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     //MARK: - UICollectionViewDelegate
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         collectionView.deselectItemAtIndexPath(indexPath, animated: true)
-        if self.delegate.respondsToSelector(#selector(ProfileDataSourceDelegate.profileDataSource(_:openProjectsBySelectingAtIndexPath:))) {
+        if self.delegate.respondsToSelector(#selector(VRProfileDataSourceDelegate.profileDataSource(_:openProjectsBySelectingAtIndexPath:))) {
             self.delegate.profileDataSource(self, openProjectsBySelectingAtIndexPath: indexPath)
         }
     }
@@ -139,15 +138,17 @@ class ProfileDataSource: NSObject, UICollectionViewDelegate, UICollectionViewDat
     func cellInBasicSection(atIndexPath indexPath:NSIndexPath) -> UICollectionViewCell {
         if indexPath.row == 0 {
             //return avar cell
-            let avaCell = collectionView.dequeueReusableCellWithReuseIdentifier(kAvarViewCell, forIndexPath: indexPath) as! AvarViewCell
+            let avaCell = collectionView.dequeueReusableCellWithReuseIdentifier(kAvarViewCell, forIndexPath: indexPath) as! VRAvarViewCell
+            avaCell.nameLabel.text = "Vu Tran"
+            avaCell.sub1Label.text = "iOS Developer"
             return avaCell
         } else {
-            let desCell = collectionView.dequeueReusableCellWithReuseIdentifier(kDescriptionViewCell, forIndexPath: indexPath) as! DesciptionViewCell
+            let desCell = collectionView.dequeueReusableCellWithReuseIdentifier(kDescriptionViewCell, forIndexPath: indexPath) as! VRDesciptionViewCell
             return desCell
         }
     }
     
-    func configureCell(inout cell:ItemViewCell, atIndexPath indexPath:NSIndexPath) {
+    func configureCell(inout cell:VRItemViewCell, atIndexPath indexPath:NSIndexPath) {
         
         let name = sectionNames[indexPath.section]
         if let list = detailDict.objectForKey(name) {

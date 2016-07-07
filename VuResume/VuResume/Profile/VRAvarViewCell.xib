@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AvarViewCell" customModule="VuResume" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VRAvarViewCell" customModule="VuResume" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -20,15 +20,15 @@
                         </constraints>
                         <state key="normal" title="Button" image="ava.jpg"/>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="iOS Developer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BwL-jq-IeG">
-                        <rect key="frame" x="86" y="32" width="93" height="17"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Developer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BwL-jq-IeG">
+                        <rect key="frame" x="86" y="34" width="92" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Vu Tran" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tf-Jk-j1i">
-                        <rect key="frame" x="86" y="8" width="62" height="21"/>
-                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vu Tran" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tf-Jk-j1i">
+                        <rect key="frame" x="86" y="8" width="62" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -39,19 +39,21 @@
             <constraints>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BwL-jq-IeG" secondAttribute="trailing" constant="16" id="0Mo-hN-f8T"/>
                 <constraint firstItem="BwL-jq-IeG" firstAttribute="leading" secondItem="LCE-8U-QaT" secondAttribute="trailing" constant="9" id="4yr-K3-mWt"/>
+                <constraint firstItem="BwL-jq-IeG" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="9zy-Mg-UJ0"/>
                 <constraint firstItem="8tf-Jk-j1i" firstAttribute="leading" secondItem="LCE-8U-QaT" secondAttribute="trailing" constant="9" id="AEJ-du-TaA"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8tf-Jk-j1i" secondAttribute="trailing" constant="16" id="BmD-dc-ZMA"/>
                 <constraint firstItem="8tf-Jk-j1i" firstAttribute="top" secondItem="LCE-8U-QaT" secondAttribute="top" id="NPp-T8-cNK"/>
                 <constraint firstAttribute="bottom" secondItem="LCE-8U-QaT" secondAttribute="bottom" constant="8" id="ax4-UX-cKu"/>
-                <constraint firstItem="BwL-jq-IeG" firstAttribute="top" secondItem="8tf-Jk-j1i" secondAttribute="bottom" constant="3" id="cpV-bv-sAv"/>
                 <constraint firstItem="LCE-8U-QaT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="glW-Qd-fMe"/>
                 <constraint firstItem="LCE-8U-QaT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="liE-PB-FYe"/>
             </constraints>
             <size key="customSize" width="320" height="85"/>
             <connections>
                 <outlet property="btnAva" destination="LCE-8U-QaT" id="iCK-VV-0xI"/>
+                <outlet property="nameLabel" destination="8tf-Jk-j1i" id="EnU-KP-00t"/>
+                <outlet property="sub1Label" destination="BwL-jq-IeG" id="z1n-7y-qsW"/>
             </connections>
-            <point key="canvasLocation" x="262" y="239.5"/>
+            <point key="canvasLocation" x="118" y="133.5"/>
         </collectionViewCell>
     </objects>
     <resources>

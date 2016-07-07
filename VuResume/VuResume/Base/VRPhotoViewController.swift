@@ -1,27 +1,21 @@
 //
-//  ProfileViewController.swift
+//  VRPhotoViewController.swift
 //  VuResume
 //
-//  Created by Vince Tran on 6/10/16.
+//  Created by Vince Tran on 7/7/16.
 //  Copyright © 2016 VuVince. All rights reserved.
 //
 
 import UIKit
 
-class ProfileViewController: BaseViewController, ProfileDataSourceDelegate {
+class VRPhotoViewController: UIViewController, VRScreenShotDataSourceDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
-    var dataSource:ProfileDataSource!
-    
-    
+    var screenShotDataSource:VRScreenShotDataSource!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
-        let color2 = UIColor.init(colorLiteralRed: 38.0/255.0, green: 56.0/255.0, blue: 44.0/255.0, alpha: 1.0)
-        collectionView.backgroundColor = color2
-        dataSource = ProfileDataSource(delegate: self, collectionView: self.collectionView)
+        screenShotDataSource = VRScreenShotDataSource(delegate: self, collectionView: collectionView, cellRatio: 1)
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,14 +24,12 @@ class ProfileViewController: BaseViewController, ProfileDataSourceDelegate {
     }
     
 
-    
-    // MARK: - ProfileDataSourceDelegate
-    func profileDataSource(dataSource: ProfileDataSource, openProjectsBySelectingAtIndexPath indexPath: NSIndexPath) {
-        performSegueWithIdentifier("Projects", sender: self)
+    //MARK: - VRScreenShotDataSourceDelegate
+    func screenShotDataSource(dataSource: VRScreenShotDataSource, openProjectBySelectingAtIndexPath indexPath: NSIndexPath) {
+        
     }
-    
-    
     /*
+    // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

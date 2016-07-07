@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DesciptionViewCell: UICollectionViewCell {
+class VRDesciptionViewCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -16,7 +16,7 @@ class DesciptionViewCell: UICollectionViewCell {
     }
     
     class func nibFile() -> UINib {
-        return UINib.init(nibName: "DesciptionViewCell", bundle: NSBundle.mainBundle())
+        return UINib.init(nibName: "VRDesciptionViewCell", bundle: NSBundle.mainBundle())
     }
     
 

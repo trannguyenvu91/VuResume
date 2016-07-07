@@ -10,58 +10,97 @@
 		0E2F47951D0A531A007BB1D1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */; };
 		0E2F47961D0A531A007BB1D1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */; };
 		0E2F47971D0A531A007BB1D1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */; };
-		0E2F479A1D0A53C3007BB1D1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47991D0A53C3007BB1D1 /* ProfileViewController.swift */; };
-		0E2F479B1D0A53C3007BB1D1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47991D0A53C3007BB1D1 /* ProfileViewController.swift */; };
-		0E2F479C1D0A53C3007BB1D1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47991D0A53C3007BB1D1 /* ProfileViewController.swift */; };
-		0E2F47A01D0A5502007BB1D1 /* CoverHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F479E1D0A5502007BB1D1 /* CoverHeaderView.swift */; };
-		0E2F47A11D0A5502007BB1D1 /* CoverHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F479E1D0A5502007BB1D1 /* CoverHeaderView.swift */; };
-		0E2F47A21D0A5502007BB1D1 /* CoverHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F479E1D0A5502007BB1D1 /* CoverHeaderView.swift */; };
-		0E2F47A31D0A5502007BB1D1 /* CoverHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F479F1D0A5502007BB1D1 /* CoverHeaderView.xib */; };
-		0E2F47A41D0A5502007BB1D1 /* CoverHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F479F1D0A5502007BB1D1 /* CoverHeaderView.xib */; };
-		0E2F47A51D0A5502007BB1D1 /* CoverHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F479F1D0A5502007BB1D1 /* CoverHeaderView.xib */; };
-		0E2F47A91D0A575F007BB1D1 /* AvarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47A71D0A575F007BB1D1 /* AvarViewCell.swift */; };
-		0E2F47AA1D0A575F007BB1D1 /* AvarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47A71D0A575F007BB1D1 /* AvarViewCell.swift */; };
-		0E2F47AB1D0A575F007BB1D1 /* AvarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47A71D0A575F007BB1D1 /* AvarViewCell.swift */; };
-		0E2F47AC1D0A575F007BB1D1 /* AvarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47A81D0A575F007BB1D1 /* AvarViewCell.xib */; };
-		0E2F47AD1D0A575F007BB1D1 /* AvarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47A81D0A575F007BB1D1 /* AvarViewCell.xib */; };
-		0E2F47AE1D0A575F007BB1D1 /* AvarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47A81D0A575F007BB1D1 /* AvarViewCell.xib */; };
+		0E2F479A1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47991D0A53C3007BB1D1 /* VRProfileViewController.swift */; };
+		0E2F479B1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47991D0A53C3007BB1D1 /* VRProfileViewController.swift */; };
+		0E2F479C1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47991D0A53C3007BB1D1 /* VRProfileViewController.swift */; };
+		0E2F47A01D0A5502007BB1D1 /* VRCoverHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F479E1D0A5502007BB1D1 /* VRCoverHeaderView.swift */; };
+		0E2F47A11D0A5502007BB1D1 /* VRCoverHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F479E1D0A5502007BB1D1 /* VRCoverHeaderView.swift */; };
+		0E2F47A21D0A5502007BB1D1 /* VRCoverHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F479E1D0A5502007BB1D1 /* VRCoverHeaderView.swift */; };
+		0E2F47A31D0A5502007BB1D1 /* VRCoverHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F479F1D0A5502007BB1D1 /* VRCoverHeaderView.xib */; };
+		0E2F47A41D0A5502007BB1D1 /* VRCoverHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F479F1D0A5502007BB1D1 /* VRCoverHeaderView.xib */; };
+		0E2F47A51D0A5502007BB1D1 /* VRCoverHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F479F1D0A5502007BB1D1 /* VRCoverHeaderView.xib */; };
+		0E2F47A91D0A575F007BB1D1 /* VRAvarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47A71D0A575F007BB1D1 /* VRAvarViewCell.swift */; };
+		0E2F47AA1D0A575F007BB1D1 /* VRAvarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47A71D0A575F007BB1D1 /* VRAvarViewCell.swift */; };
+		0E2F47AB1D0A575F007BB1D1 /* VRAvarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47A71D0A575F007BB1D1 /* VRAvarViewCell.swift */; };
+		0E2F47AC1D0A575F007BB1D1 /* VRAvarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47A81D0A575F007BB1D1 /* VRAvarViewCell.xib */; };
+		0E2F47AD1D0A575F007BB1D1 /* VRAvarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47A81D0A575F007BB1D1 /* VRAvarViewCell.xib */; };
+		0E2F47AE1D0A575F007BB1D1 /* VRAvarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47A81D0A575F007BB1D1 /* VRAvarViewCell.xib */; };
 		0E2F47B41D0A5C02007BB1D1 /* cover1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47B31D0A5C02007BB1D1 /* cover1.jpg */; };
 		0E2F47B51D0A5C02007BB1D1 /* cover1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47B31D0A5C02007BB1D1 /* cover1.jpg */; };
 		0E2F47B61D0A5C02007BB1D1 /* cover1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47B31D0A5C02007BB1D1 /* cover1.jpg */; };
 		0E2F47B81D0A5CC5007BB1D1 /* cover2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47B71D0A5CC5007BB1D1 /* cover2.jpg */; };
 		0E2F47B91D0A5CC5007BB1D1 /* cover2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47B71D0A5CC5007BB1D1 /* cover2.jpg */; };
 		0E2F47BA1D0A5CC5007BB1D1 /* cover2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47B71D0A5CC5007BB1D1 /* cover2.jpg */; };
-		0E2F47BD1D0A5D7F007BB1D1 /* DesciptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47BB1D0A5D7F007BB1D1 /* DesciptionViewCell.swift */; };
-		0E2F47BE1D0A5D7F007BB1D1 /* DesciptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47BB1D0A5D7F007BB1D1 /* DesciptionViewCell.swift */; };
-		0E2F47BF1D0A5D7F007BB1D1 /* DesciptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47BB1D0A5D7F007BB1D1 /* DesciptionViewCell.swift */; };
-		0E2F47C01D0A5D7F007BB1D1 /* DesciptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47BC1D0A5D7F007BB1D1 /* DesciptionViewCell.xib */; };
-		0E2F47C11D0A5D7F007BB1D1 /* DesciptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47BC1D0A5D7F007BB1D1 /* DesciptionViewCell.xib */; };
-		0E2F47C21D0A5D7F007BB1D1 /* DesciptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47BC1D0A5D7F007BB1D1 /* DesciptionViewCell.xib */; };
-		0E2F47CD1D0A61EA007BB1D1 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47CB1D0A61EA007BB1D1 /* ContentHeaderView.swift */; };
-		0E2F47CE1D0A61EA007BB1D1 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47CB1D0A61EA007BB1D1 /* ContentHeaderView.swift */; };
-		0E2F47CF1D0A61EA007BB1D1 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47CB1D0A61EA007BB1D1 /* ContentHeaderView.swift */; };
-		0E2F47D51D0A6201007BB1D1 /* ItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47D31D0A6201007BB1D1 /* ItemViewCell.swift */; };
-		0E2F47D61D0A6201007BB1D1 /* ItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47D31D0A6201007BB1D1 /* ItemViewCell.swift */; };
-		0E2F47D71D0A6201007BB1D1 /* ItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47D31D0A6201007BB1D1 /* ItemViewCell.swift */; };
-		0E2F47DC1D0A6272007BB1D1 /* ProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DB1D0A6272007BB1D1 /* ProfileDataSource.swift */; };
-		0E2F47DD1D0A6272007BB1D1 /* ProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DB1D0A6272007BB1D1 /* ProfileDataSource.swift */; };
-		0E2F47DE1D0A6272007BB1D1 /* ProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DB1D0A6272007BB1D1 /* ProfileDataSource.swift */; };
-		0E2F47E01D0AA7F4007BB1D1 /* ProfileFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DF1D0AA7F4007BB1D1 /* ProfileFlowLayout.swift */; };
-		0E2F47E11D0AA7F4007BB1D1 /* ProfileFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DF1D0AA7F4007BB1D1 /* ProfileFlowLayout.swift */; };
-		0E2F47E21D0AA7F4007BB1D1 /* ProfileFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DF1D0AA7F4007BB1D1 /* ProfileFlowLayout.swift */; };
+		0E2F47BD1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47BB1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift */; };
+		0E2F47BE1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47BB1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift */; };
+		0E2F47BF1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47BB1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift */; };
+		0E2F47C01D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47BC1D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib */; };
+		0E2F47C11D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47BC1D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib */; };
+		0E2F47C21D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47BC1D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib */; };
+		0E2F47CD1D0A61EA007BB1D1 /* VRContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47CB1D0A61EA007BB1D1 /* VRContentHeaderView.swift */; };
+		0E2F47CE1D0A61EA007BB1D1 /* VRContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47CB1D0A61EA007BB1D1 /* VRContentHeaderView.swift */; };
+		0E2F47CF1D0A61EA007BB1D1 /* VRContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47CB1D0A61EA007BB1D1 /* VRContentHeaderView.swift */; };
+		0E2F47D51D0A6201007BB1D1 /* VRItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47D31D0A6201007BB1D1 /* VRItemViewCell.swift */; };
+		0E2F47D61D0A6201007BB1D1 /* VRItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47D31D0A6201007BB1D1 /* VRItemViewCell.swift */; };
+		0E2F47D71D0A6201007BB1D1 /* VRItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47D31D0A6201007BB1D1 /* VRItemViewCell.swift */; };
+		0E2F47DC1D0A6272007BB1D1 /* VRProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DB1D0A6272007BB1D1 /* VRProfileDataSource.swift */; };
+		0E2F47DD1D0A6272007BB1D1 /* VRProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DB1D0A6272007BB1D1 /* VRProfileDataSource.swift */; };
+		0E2F47DE1D0A6272007BB1D1 /* VRProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DB1D0A6272007BB1D1 /* VRProfileDataSource.swift */; };
+		0E2F47E01D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DF1D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift */; };
+		0E2F47E11D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DF1D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift */; };
+		0E2F47E21D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47DF1D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift */; };
 		0E2F47E41D0AAB63007BB1D1 /* Details.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47E31D0AAB63007BB1D1 /* Details.plist */; };
 		0E2F47E51D0AAB63007BB1D1 /* Details.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47E31D0AAB63007BB1D1 /* Details.plist */; };
 		0E2F47E61D0AAB63007BB1D1 /* Details.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F47E31D0AAB63007BB1D1 /* Details.plist */; };
+		0E3F9E441D2CF02400FEE5FA /* VRProjectsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E431D2CF02400FEE5FA /* VRProjectsDataSource.swift */; };
+		0E3F9E451D2CF02400FEE5FA /* VRProjectsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E431D2CF02400FEE5FA /* VRProjectsDataSource.swift */; };
+		0E3F9E461D2CF02400FEE5FA /* VRProjectsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E431D2CF02400FEE5FA /* VRProjectsDataSource.swift */; };
+		0E3F9E481D2CF58C00FEE5FA /* VRProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E471D2CF58C00FEE5FA /* VRProjectCell.swift */; };
+		0E3F9E491D2CF58C00FEE5FA /* VRProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E471D2CF58C00FEE5FA /* VRProjectCell.swift */; };
+		0E3F9E4A1D2CF58C00FEE5FA /* VRProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E471D2CF58C00FEE5FA /* VRProjectCell.swift */; };
+		0E3F9E4C1D2CF96E00FEE5FA /* VRCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E4B1D2CF96E00FEE5FA /* VRCollectionCell.swift */; };
+		0E3F9E4D1D2CF96E00FEE5FA /* VRCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E4B1D2CF96E00FEE5FA /* VRCollectionCell.swift */; };
+		0E3F9E4E1D2CF96E00FEE5FA /* VRCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E4B1D2CF96E00FEE5FA /* VRCollectionCell.swift */; };
+		0E3F9E501D2D03E100FEE5FA /* VRProjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E4F1D2D03E100FEE5FA /* VRProjectDetailViewController.swift */; };
+		0E3F9E511D2D03E100FEE5FA /* VRProjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E4F1D2D03E100FEE5FA /* VRProjectDetailViewController.swift */; };
+		0E3F9E521D2D03E100FEE5FA /* VRProjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F9E4F1D2D03E100FEE5FA /* VRProjectDetailViewController.swift */; };
 		0E491FF61D2B5ED500ADAB6F /* VRProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E491FF51D2B5ED500ADAB6F /* VRProjectsViewController.swift */; };
 		0E491FF71D2B5ED500ADAB6F /* VRProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E491FF51D2B5ED500ADAB6F /* VRProjectsViewController.swift */; };
 		0E491FF81D2B5ED500ADAB6F /* VRProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E491FF51D2B5ED500ADAB6F /* VRProjectsViewController.swift */; };
 		0E4920001D2BA56E00ADAB6F /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E491FFF1D2BA56E00ADAB6F /* DismissSegue.swift */; };
 		0E4920011D2BA56E00ADAB6F /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E491FFF1D2BA56E00ADAB6F /* DismissSegue.swift */; };
 		0E4920021D2BA56E00ADAB6F /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E491FFF1D2BA56E00ADAB6F /* DismissSegue.swift */; };
-		0EAF78591D0ABED900FFB1F3 /* ItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF78581D0ABED900FFB1F3 /* ItemViewCell.xib */; };
-		0EAF785B1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* ContentHeaderView.xib */; };
-		0EAF785C1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* ContentHeaderView.xib */; };
-		0EAF785D1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* ContentHeaderView.xib */; };
+		0EAF78591D0ABED900FFB1F3 /* VRItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF78581D0ABED900FFB1F3 /* VRItemViewCell.xib */; };
+		0EAF785B1D0ABEF900FFB1F3 /* VRContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* VRContentHeaderView.xib */; };
+		0EAF785C1D0ABEF900FFB1F3 /* VRContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* VRContentHeaderView.xib */; };
+		0EAF785D1D0ABEF900FFB1F3 /* VRContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* VRContentHeaderView.xib */; };
+		0EBE61561D2DE82100198CA9 /* btn-AppStore-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE61551D2DE82100198CA9 /* btn-AppStore-white.png */; };
+		0EBE61571D2DE82100198CA9 /* btn-AppStore-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE61551D2DE82100198CA9 /* btn-AppStore-white.png */; };
+		0EBE61581D2DE82100198CA9 /* btn-AppStore-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE61551D2DE82100198CA9 /* btn-AppStore-white.png */; };
+		0EBE615A1D2DED4900198CA9 /* VRDesciptionCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61591D2DED4900198CA9 /* VRDesciptionCollectionCell.swift */; };
+		0EBE615B1D2DED4900198CA9 /* VRDesciptionCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61591D2DED4900198CA9 /* VRDesciptionCollectionCell.swift */; };
+		0EBE615C1D2DED4900198CA9 /* VRDesciptionCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61591D2DED4900198CA9 /* VRDesciptionCollectionCell.swift */; };
+		0EBE615F1D2DEDE400198CA9 /* VRScreenShotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE615E1D2DEDE400198CA9 /* VRScreenShotCell.swift */; };
+		0EBE61601D2DEDE400198CA9 /* VRScreenShotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE615E1D2DEDE400198CA9 /* VRScreenShotCell.swift */; };
+		0EBE61611D2DEDE400198CA9 /* VRScreenShotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE615E1D2DEDE400198CA9 /* VRScreenShotCell.swift */; };
+		0EBE61631D2DEF5900198CA9 /* VRProjectDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61621D2DEF5900198CA9 /* VRProjectDetailDataSource.swift */; };
+		0EBE61641D2DEF5900198CA9 /* VRProjectDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61621D2DEF5900198CA9 /* VRProjectDetailDataSource.swift */; };
+		0EBE61651D2DEF5900198CA9 /* VRProjectDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61621D2DEF5900198CA9 /* VRProjectDetailDataSource.swift */; };
+		0EBE61671D2DFA4000198CA9 /* VRScreenShotDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61661D2DFA4000198CA9 /* VRScreenShotDataSource.swift */; };
+		0EBE61681D2DFA4000198CA9 /* VRScreenShotDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61661D2DFA4000198CA9 /* VRScreenShotDataSource.swift */; };
+		0EBE61691D2DFA4000198CA9 /* VRScreenShotDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61661D2DFA4000198CA9 /* VRScreenShotDataSource.swift */; };
+		0EBE616B1D2DFB8600198CA9 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE616A1D2DFB8600198CA9 /* ImageCollectionCell.swift */; };
+		0EBE616C1D2DFB8600198CA9 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE616A1D2DFB8600198CA9 /* ImageCollectionCell.swift */; };
+		0EBE616D1D2DFB8600198CA9 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE616A1D2DFB8600198CA9 /* ImageCollectionCell.swift */; };
+		0EBE61701D2E15E300198CA9 /* VRExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE616E1D2E15E300198CA9 /* VRExperienceViewController.swift */; };
+		0EBE61711D2E15E300198CA9 /* VRExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE616E1D2E15E300198CA9 /* VRExperienceViewController.swift */; };
+		0EBE61721D2E15E300198CA9 /* VRExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE616E1D2E15E300198CA9 /* VRExperienceViewController.swift */; };
+		0EBE61781D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61771D2E176D00198CA9 /* VRExperienceDataSource.swift */; };
+		0EBE61791D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61771D2E176D00198CA9 /* VRExperienceDataSource.swift */; };
+		0EBE617A1D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61771D2E176D00198CA9 /* VRExperienceDataSource.swift */; };
+		0EBE617D1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */; };
+		0EBE617E1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */; };
+		0EBE617F1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */; };
 		1248DAD31D0D7E4300DEBA97 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */; };
 		1248DAD41D0D7E4300DEBA97 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */; };
 		1248DAD51D0D7E4300DEBA97 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */; };
@@ -96,24 +135,37 @@
 
 /* Begin PBXFileReference section */
 		0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Base/BaseViewController.swift; sourceTree = "<group>"; };
-		0E2F47991D0A53C3007BB1D1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Profile/ProfileViewController.swift; sourceTree = "<group>"; };
-		0E2F479E1D0A5502007BB1D1 /* CoverHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverHeaderView.swift; path = Profile/CoverHeaderView.swift; sourceTree = "<group>"; };
-		0E2F479F1D0A5502007BB1D1 /* CoverHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CoverHeaderView.xib; path = Profile/CoverHeaderView.xib; sourceTree = "<group>"; };
-		0E2F47A71D0A575F007BB1D1 /* AvarViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AvarViewCell.swift; path = Profile/AvarViewCell.swift; sourceTree = "<group>"; };
-		0E2F47A81D0A575F007BB1D1 /* AvarViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AvarViewCell.xib; path = Profile/AvarViewCell.xib; sourceTree = "<group>"; };
+		0E2F47991D0A53C3007BB1D1 /* VRProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProfileViewController.swift; path = Profile/VRProfileViewController.swift; sourceTree = "<group>"; };
+		0E2F479E1D0A5502007BB1D1 /* VRCoverHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRCoverHeaderView.swift; path = Profile/VRCoverHeaderView.swift; sourceTree = "<group>"; };
+		0E2F479F1D0A5502007BB1D1 /* VRCoverHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VRCoverHeaderView.xib; path = Profile/VRCoverHeaderView.xib; sourceTree = "<group>"; };
+		0E2F47A71D0A575F007BB1D1 /* VRAvarViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRAvarViewCell.swift; path = Profile/VRAvarViewCell.swift; sourceTree = "<group>"; };
+		0E2F47A81D0A575F007BB1D1 /* VRAvarViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VRAvarViewCell.xib; path = Profile/VRAvarViewCell.xib; sourceTree = "<group>"; };
 		0E2F47B31D0A5C02007BB1D1 /* cover1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover1.jpg; sourceTree = "<group>"; };
 		0E2F47B71D0A5CC5007BB1D1 /* cover2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover2.jpg; sourceTree = "<group>"; };
-		0E2F47BB1D0A5D7F007BB1D1 /* DesciptionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesciptionViewCell.swift; path = Profile/DesciptionViewCell.swift; sourceTree = "<group>"; };
-		0E2F47BC1D0A5D7F007BB1D1 /* DesciptionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DesciptionViewCell.xib; path = Profile/DesciptionViewCell.xib; sourceTree = "<group>"; };
-		0E2F47CB1D0A61EA007BB1D1 /* ContentHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentHeaderView.swift; path = Profile/ContentHeaderView.swift; sourceTree = "<group>"; };
-		0E2F47D31D0A6201007BB1D1 /* ItemViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemViewCell.swift; path = Profile/ItemViewCell.swift; sourceTree = "<group>"; };
-		0E2F47DB1D0A6272007BB1D1 /* ProfileDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileDataSource.swift; path = Profile/ProfileDataSource.swift; sourceTree = "<group>"; };
-		0E2F47DF1D0AA7F4007BB1D1 /* ProfileFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileFlowLayout.swift; path = Profile/ProfileFlowLayout.swift; sourceTree = "<group>"; };
+		0E2F47BB1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRDesciptionViewCell.swift; path = Profile/VRDesciptionViewCell.swift; sourceTree = "<group>"; };
+		0E2F47BC1D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VRDesciptionViewCell.xib; path = Profile/VRDesciptionViewCell.xib; sourceTree = "<group>"; };
+		0E2F47CB1D0A61EA007BB1D1 /* VRContentHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRContentHeaderView.swift; path = Profile/VRContentHeaderView.swift; sourceTree = "<group>"; };
+		0E2F47D31D0A6201007BB1D1 /* VRItemViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRItemViewCell.swift; path = Profile/VRItemViewCell.swift; sourceTree = "<group>"; };
+		0E2F47DB1D0A6272007BB1D1 /* VRProfileDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProfileDataSource.swift; path = Profile/VRProfileDataSource.swift; sourceTree = "<group>"; };
+		0E2F47DF1D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProfileFlowLayout.swift; path = Profile/VRProfileFlowLayout.swift; sourceTree = "<group>"; };
 		0E2F47E31D0AAB63007BB1D1 /* Details.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Details.plist; path = Profile/Details.plist; sourceTree = "<group>"; };
+		0E3F9E431D2CF02400FEE5FA /* VRProjectsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProjectsDataSource.swift; path = Projects/VRProjectsDataSource.swift; sourceTree = "<group>"; };
+		0E3F9E471D2CF58C00FEE5FA /* VRProjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProjectCell.swift; path = Projects/VRProjectCell.swift; sourceTree = "<group>"; };
+		0E3F9E4B1D2CF96E00FEE5FA /* VRCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRCollectionCell.swift; path = Base/VRCollectionCell.swift; sourceTree = "<group>"; };
+		0E3F9E4F1D2D03E100FEE5FA /* VRProjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProjectDetailViewController.swift; path = Projects/VRProjectDetailViewController.swift; sourceTree = "<group>"; };
 		0E491FF51D2B5ED500ADAB6F /* VRProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProjectsViewController.swift; path = Projects/VRProjectsViewController.swift; sourceTree = "<group>"; };
 		0E491FFF1D2BA56E00ADAB6F /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DismissSegue.swift; path = Utilities/DismissSegue.swift; sourceTree = "<group>"; };
-		0EAF78581D0ABED900FFB1F3 /* ItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemViewCell.xib; sourceTree = "<group>"; };
-		0EAF785A1D0ABEF900FFB1F3 /* ContentHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentHeaderView.xib; sourceTree = "<group>"; };
+		0EAF78581D0ABED900FFB1F3 /* VRItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VRItemViewCell.xib; sourceTree = "<group>"; };
+		0EAF785A1D0ABEF900FFB1F3 /* VRContentHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VRContentHeaderView.xib; sourceTree = "<group>"; };
+		0EBE61551D2DE82100198CA9 /* btn-AppStore-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-AppStore-white.png"; sourceTree = "<group>"; };
+		0EBE61591D2DED4900198CA9 /* VRDesciptionCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRDesciptionCollectionCell.swift; path = Projects/VRDesciptionCollectionCell.swift; sourceTree = "<group>"; };
+		0EBE615E1D2DEDE400198CA9 /* VRScreenShotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRScreenShotCell.swift; path = Projects/VRScreenShotCell.swift; sourceTree = "<group>"; };
+		0EBE61621D2DEF5900198CA9 /* VRProjectDetailDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProjectDetailDataSource.swift; path = Projects/VRProjectDetailDataSource.swift; sourceTree = "<group>"; };
+		0EBE61661D2DFA4000198CA9 /* VRScreenShotDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRScreenShotDataSource.swift; path = Projects/VRScreenShotDataSource.swift; sourceTree = "<group>"; };
+		0EBE616A1D2DFB8600198CA9 /* ImageCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionCell.swift; path = Projects/ImageCollectionCell.swift; sourceTree = "<group>"; };
+		0EBE616E1D2E15E300198CA9 /* VRExperienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRExperienceViewController.swift; path = Experience/VRExperienceViewController.swift; sourceTree = "<group>"; };
+		0EBE61771D2E176D00198CA9 /* VRExperienceDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRExperienceDataSource.swift; path = Experience/VRExperienceDataSource.swift; sourceTree = "<group>"; };
+		0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRPhotoViewController.swift; path = Base/VRPhotoViewController.swift; sourceTree = "<group>"; };
 		1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
 		12BECB971D2AB60E004A44FA /* btn-right-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-right-white.png"; sourceTree = "<group>"; };
 		12CD72171D09B07C00282ED1 /* VuResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VuResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +212,8 @@
 			isa = PBXGroup;
 			children = (
 				0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */,
+				0E3F9E4B1D2CF96E00FEE5FA /* VRCollectionCell.swift */,
+				0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -167,9 +221,9 @@
 		0E2F479D1D0A545B007BB1D1 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				0E2F47991D0A53C3007BB1D1 /* ProfileViewController.swift */,
-				0E2F47DB1D0A6272007BB1D1 /* ProfileDataSource.swift */,
-				0E2F47DF1D0AA7F4007BB1D1 /* ProfileFlowLayout.swift */,
+				0E2F47991D0A53C3007BB1D1 /* VRProfileViewController.swift */,
+				0E2F47DB1D0A6272007BB1D1 /* VRProfileDataSource.swift */,
+				0E2F47DF1D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift */,
 				0E2F47E31D0AAB63007BB1D1 /* Details.plist */,
 				0E2F47A61D0A5584007BB1D1 /* SubView */,
 			);
@@ -179,16 +233,16 @@
 		0E2F47A61D0A5584007BB1D1 /* SubView */ = {
 			isa = PBXGroup;
 			children = (
-				0E2F479E1D0A5502007BB1D1 /* CoverHeaderView.swift */,
-				0E2F479F1D0A5502007BB1D1 /* CoverHeaderView.xib */,
-				0E2F47A71D0A575F007BB1D1 /* AvarViewCell.swift */,
-				0E2F47A81D0A575F007BB1D1 /* AvarViewCell.xib */,
-				0E2F47BB1D0A5D7F007BB1D1 /* DesciptionViewCell.swift */,
-				0E2F47BC1D0A5D7F007BB1D1 /* DesciptionViewCell.xib */,
-				0E2F47D31D0A6201007BB1D1 /* ItemViewCell.swift */,
-				0EAF78581D0ABED900FFB1F3 /* ItemViewCell.xib */,
-				0E2F47CB1D0A61EA007BB1D1 /* ContentHeaderView.swift */,
-				0EAF785A1D0ABEF900FFB1F3 /* ContentHeaderView.xib */,
+				0E2F479E1D0A5502007BB1D1 /* VRCoverHeaderView.swift */,
+				0E2F479F1D0A5502007BB1D1 /* VRCoverHeaderView.xib */,
+				0E2F47A71D0A575F007BB1D1 /* VRAvarViewCell.swift */,
+				0E2F47A81D0A575F007BB1D1 /* VRAvarViewCell.xib */,
+				0E2F47BB1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift */,
+				0E2F47BC1D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib */,
+				0E2F47D31D0A6201007BB1D1 /* VRItemViewCell.swift */,
+				0EAF78581D0ABED900FFB1F3 /* VRItemViewCell.xib */,
+				0E2F47CB1D0A61EA007BB1D1 /* VRContentHeaderView.swift */,
+				0EAF785A1D0ABEF900FFB1F3 /* VRContentHeaderView.xib */,
 			);
 			name = SubView;
 			sourceTree = "<group>";
@@ -197,6 +251,11 @@
 			isa = PBXGroup;
 			children = (
 				0E491FF51D2B5ED500ADAB6F /* VRProjectsViewController.swift */,
+				0E3F9E431D2CF02400FEE5FA /* VRProjectsDataSource.swift */,
+				0E3F9E4F1D2D03E100FEE5FA /* VRProjectDetailViewController.swift */,
+				0EBE61621D2DEF5900198CA9 /* VRProjectDetailDataSource.swift */,
+				0EBE61661D2DFA4000198CA9 /* VRScreenShotDataSource.swift */,
+				0EBE615D1D2DED8900198CA9 /* SubView */,
 			);
 			name = Projects;
 			sourceTree = "<group>";
@@ -207,6 +266,26 @@
 				0E491FFF1D2BA56E00ADAB6F /* DismissSegue.swift */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		0EBE615D1D2DED8900198CA9 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				0E3F9E471D2CF58C00FEE5FA /* VRProjectCell.swift */,
+				0EBE61591D2DED4900198CA9 /* VRDesciptionCollectionCell.swift */,
+				0EBE615E1D2DEDE400198CA9 /* VRScreenShotCell.swift */,
+				0EBE616A1D2DFB8600198CA9 /* ImageCollectionCell.swift */,
+			);
+			name = SubView;
+			sourceTree = "<group>";
+		};
+		0EBE61761D2E15F200198CA9 /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				0EBE616E1D2E15E300198CA9 /* VRExperienceViewController.swift */,
+				0EBE61771D2E176D00198CA9 /* VRExperienceDataSource.swift */,
+			);
+			name = Experience;
 			sourceTree = "<group>";
 		};
 		12CD720E1D09B07C00282ED1 = {
@@ -237,6 +316,7 @@
 				0E2F47981D0A533A007BB1D1 /* Base */,
 				0E2F479D1D0A545B007BB1D1 /* Profile */,
 				0E491FF91D2B5EDE00ADAB6F /* Projects */,
+				0EBE61761D2E15F200198CA9 /* Experience */,
 				12CD72211D09B07C00282ED1 /* Assets.xcassets */,
 				0E4920031D2BA57500ADAB6F /* Utilities */,
 				12CD72231D09B07C00282ED1 /* LaunchScreen.storyboard */,
@@ -245,6 +325,7 @@
 				12CD724C1D09BA9900282ED1 /* ava.jpg */,
 				0E2F47B31D0A5C02007BB1D1 /* cover1.jpg */,
 				0E2F47B71D0A5CC5007BB1D1 /* cover2.jpg */,
+				0EBE61551D2DE82100198CA9 /* btn-AppStore-white.png */,
 				12BECB971D2AB60E004A44FA /* btn-right-white.png */,
 			);
 			path = VuResume;
@@ -375,20 +456,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAF78591D0ABED900FFB1F3 /* ItemViewCell.xib in Resources */,
+				0EAF78591D0ABED900FFB1F3 /* VRItemViewCell.xib in Resources */,
 				12CD72251D09B07C00282ED1 /* LaunchScreen.storyboard in Resources */,
 				1248DAD31D0D7E4300DEBA97 /* Untitled-1.png in Resources */,
 				0E2F47B81D0A5CC5007BB1D1 /* cover2.jpg in Resources */,
 				12CD72221D09B07C00282ED1 /* Assets.xcassets in Resources */,
 				12CD72201D09B07C00282ED1 /* Main.storyboard in Resources */,
-				0EAF785B1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */,
+				0EAF785B1D0ABEF900FFB1F3 /* VRContentHeaderView.xib in Resources */,
 				12BECB981D2AB60E004A44FA /* btn-right-white.png in Resources */,
 				0E2F47B41D0A5C02007BB1D1 /* cover1.jpg in Resources */,
-				0E2F47A31D0A5502007BB1D1 /* CoverHeaderView.xib in Resources */,
+				0E2F47A31D0A5502007BB1D1 /* VRCoverHeaderView.xib in Resources */,
+				0EBE61561D2DE82100198CA9 /* btn-AppStore-white.png in Resources */,
 				0E2F47E41D0AAB63007BB1D1 /* Details.plist in Resources */,
-				0E2F47C01D0A5D7F007BB1D1 /* DesciptionViewCell.xib in Resources */,
+				0E2F47C01D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib in Resources */,
 				12CD724D1D09BA9900282ED1 /* ava.jpg in Resources */,
-				0E2F47AC1D0A575F007BB1D1 /* AvarViewCell.xib in Resources */,
+				0E2F47AC1D0A575F007BB1D1 /* VRAvarViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,13 +478,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2F47C11D0A5D7F007BB1D1 /* DesciptionViewCell.xib in Resources */,
-				0E2F47AD1D0A575F007BB1D1 /* AvarViewCell.xib in Resources */,
-				0E2F47A41D0A5502007BB1D1 /* CoverHeaderView.xib in Resources */,
+				0E2F47C11D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib in Resources */,
+				0E2F47AD1D0A575F007BB1D1 /* VRAvarViewCell.xib in Resources */,
+				0E2F47A41D0A5502007BB1D1 /* VRCoverHeaderView.xib in Resources */,
 				1248DAD41D0D7E4300DEBA97 /* Untitled-1.png in Resources */,
 				0E2F47B91D0A5CC5007BB1D1 /* cover2.jpg in Resources */,
+				0EBE61571D2DE82100198CA9 /* btn-AppStore-white.png in Resources */,
 				0E2F47B51D0A5C02007BB1D1 /* cover1.jpg in Resources */,
-				0EAF785C1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */,
+				0EAF785C1D0ABEF900FFB1F3 /* VRContentHeaderView.xib in Resources */,
 				0E2F47E51D0AAB63007BB1D1 /* Details.plist in Resources */,
 				12CD724E1D09BA9900282ED1 /* ava.jpg in Resources */,
 			);
@@ -412,13 +495,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2F47C21D0A5D7F007BB1D1 /* DesciptionViewCell.xib in Resources */,
-				0E2F47AE1D0A575F007BB1D1 /* AvarViewCell.xib in Resources */,
-				0E2F47A51D0A5502007BB1D1 /* CoverHeaderView.xib in Resources */,
+				0E2F47C21D0A5D7F007BB1D1 /* VRDesciptionViewCell.xib in Resources */,
+				0E2F47AE1D0A575F007BB1D1 /* VRAvarViewCell.xib in Resources */,
+				0E2F47A51D0A5502007BB1D1 /* VRCoverHeaderView.xib in Resources */,
 				1248DAD51D0D7E4300DEBA97 /* Untitled-1.png in Resources */,
 				0E2F47BA1D0A5CC5007BB1D1 /* cover2.jpg in Resources */,
+				0EBE61581D2DE82100198CA9 /* btn-AppStore-white.png in Resources */,
 				0E2F47B61D0A5C02007BB1D1 /* cover1.jpg in Resources */,
-				0EAF785D1D0ABEF900FFB1F3 /* ContentHeaderView.xib in Resources */,
+				0EAF785D1D0ABEF900FFB1F3 /* VRContentHeaderView.xib in Resources */,
 				0E2F47E61D0AAB63007BB1D1 /* Details.plist in Resources */,
 				12CD724F1D09BA9900282ED1 /* ava.jpg in Resources */,
 			);
@@ -431,18 +515,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2F47D51D0A6201007BB1D1 /* ItemViewCell.swift in Sources */,
-				0E2F47DC1D0A6272007BB1D1 /* ProfileDataSource.swift in Sources */,
-				0E2F479A1D0A53C3007BB1D1 /* ProfileViewController.swift in Sources */,
+				0EBE616B1D2DFB8600198CA9 /* ImageCollectionCell.swift in Sources */,
+				0E3F9E4C1D2CF96E00FEE5FA /* VRCollectionCell.swift in Sources */,
+				0EBE61701D2E15E300198CA9 /* VRExperienceViewController.swift in Sources */,
+				0E2F47D51D0A6201007BB1D1 /* VRItemViewCell.swift in Sources */,
+				0E2F47DC1D0A6272007BB1D1 /* VRProfileDataSource.swift in Sources */,
+				0E3F9E441D2CF02400FEE5FA /* VRProjectsDataSource.swift in Sources */,
+				0EBE61781D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */,
+				0EBE61671D2DFA4000198CA9 /* VRScreenShotDataSource.swift in Sources */,
+				0E2F479A1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */,
+				0EBE615F1D2DEDE400198CA9 /* VRScreenShotCell.swift in Sources */,
+				0EBE615A1D2DED4900198CA9 /* VRDesciptionCollectionCell.swift in Sources */,
 				0E2F47951D0A531A007BB1D1 /* BaseViewController.swift in Sources */,
 				0E491FF61D2B5ED500ADAB6F /* VRProjectsViewController.swift in Sources */,
+				0E3F9E501D2D03E100FEE5FA /* VRProjectDetailViewController.swift in Sources */,
 				12CD721B1D09B07C00282ED1 /* AppDelegate.swift in Sources */,
-				0E2F47E01D0AA7F4007BB1D1 /* ProfileFlowLayout.swift in Sources */,
-				0E2F47A01D0A5502007BB1D1 /* CoverHeaderView.swift in Sources */,
-				0E2F47BD1D0A5D7F007BB1D1 /* DesciptionViewCell.swift in Sources */,
-				0E2F47CD1D0A61EA007BB1D1 /* ContentHeaderView.swift in Sources */,
+				0E2F47E01D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift in Sources */,
+				0E2F47A01D0A5502007BB1D1 /* VRCoverHeaderView.swift in Sources */,
+				0E2F47BD1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift in Sources */,
+				0EBE61631D2DEF5900198CA9 /* VRProjectDetailDataSource.swift in Sources */,
+				0E2F47CD1D0A61EA007BB1D1 /* VRContentHeaderView.swift in Sources */,
 				0E4920001D2BA56E00ADAB6F /* DismissSegue.swift in Sources */,
-				0E2F47A91D0A575F007BB1D1 /* AvarViewCell.swift in Sources */,
+				0E2F47A91D0A575F007BB1D1 /* VRAvarViewCell.swift in Sources */,
+				0E3F9E481D2CF58C00FEE5FA /* VRProjectCell.swift in Sources */,
+				0EBE617D1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,18 +546,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2F47D61D0A6201007BB1D1 /* ItemViewCell.swift in Sources */,
-				0E2F47DD1D0A6272007BB1D1 /* ProfileDataSource.swift in Sources */,
-				0E2F479B1D0A53C3007BB1D1 /* ProfileViewController.swift in Sources */,
+				0EBE616C1D2DFB8600198CA9 /* ImageCollectionCell.swift in Sources */,
+				0E3F9E4D1D2CF96E00FEE5FA /* VRCollectionCell.swift in Sources */,
+				0EBE61711D2E15E300198CA9 /* VRExperienceViewController.swift in Sources */,
+				0E2F47D61D0A6201007BB1D1 /* VRItemViewCell.swift in Sources */,
+				0E2F47DD1D0A6272007BB1D1 /* VRProfileDataSource.swift in Sources */,
+				0E3F9E451D2CF02400FEE5FA /* VRProjectsDataSource.swift in Sources */,
+				0EBE61791D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */,
+				0EBE61681D2DFA4000198CA9 /* VRScreenShotDataSource.swift in Sources */,
+				0E2F479B1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */,
+				0EBE61601D2DEDE400198CA9 /* VRScreenShotCell.swift in Sources */,
+				0EBE615B1D2DED4900198CA9 /* VRDesciptionCollectionCell.swift in Sources */,
 				0E2F47961D0A531A007BB1D1 /* BaseViewController.swift in Sources */,
 				0E491FF71D2B5ED500ADAB6F /* VRProjectsViewController.swift in Sources */,
+				0E3F9E511D2D03E100FEE5FA /* VRProjectDetailViewController.swift in Sources */,
 				12CD72301D09B07C00282ED1 /* VuResumeTests.swift in Sources */,
-				0E2F47E11D0AA7F4007BB1D1 /* ProfileFlowLayout.swift in Sources */,
-				0E2F47A11D0A5502007BB1D1 /* CoverHeaderView.swift in Sources */,
-				0E2F47BE1D0A5D7F007BB1D1 /* DesciptionViewCell.swift in Sources */,
-				0E2F47CE1D0A61EA007BB1D1 /* ContentHeaderView.swift in Sources */,
+				0E2F47E11D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift in Sources */,
+				0E2F47A11D0A5502007BB1D1 /* VRCoverHeaderView.swift in Sources */,
+				0E2F47BE1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift in Sources */,
+				0EBE61641D2DEF5900198CA9 /* VRProjectDetailDataSource.swift in Sources */,
+				0E2F47CE1D0A61EA007BB1D1 /* VRContentHeaderView.swift in Sources */,
 				0E4920011D2BA56E00ADAB6F /* DismissSegue.swift in Sources */,
-				0E2F47AA1D0A575F007BB1D1 /* AvarViewCell.swift in Sources */,
+				0E2F47AA1D0A575F007BB1D1 /* VRAvarViewCell.swift in Sources */,
+				0E3F9E491D2CF58C00FEE5FA /* VRProjectCell.swift in Sources */,
+				0EBE617E1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,18 +577,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2F47D71D0A6201007BB1D1 /* ItemViewCell.swift in Sources */,
-				0E2F47DE1D0A6272007BB1D1 /* ProfileDataSource.swift in Sources */,
-				0E2F479C1D0A53C3007BB1D1 /* ProfileViewController.swift in Sources */,
+				0EBE616D1D2DFB8600198CA9 /* ImageCollectionCell.swift in Sources */,
+				0E3F9E4E1D2CF96E00FEE5FA /* VRCollectionCell.swift in Sources */,
+				0EBE61721D2E15E300198CA9 /* VRExperienceViewController.swift in Sources */,
+				0E2F47D71D0A6201007BB1D1 /* VRItemViewCell.swift in Sources */,
+				0E2F47DE1D0A6272007BB1D1 /* VRProfileDataSource.swift in Sources */,
+				0E3F9E461D2CF02400FEE5FA /* VRProjectsDataSource.swift in Sources */,
+				0EBE617A1D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */,
+				0EBE61691D2DFA4000198CA9 /* VRScreenShotDataSource.swift in Sources */,
+				0E2F479C1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */,
+				0EBE61611D2DEDE400198CA9 /* VRScreenShotCell.swift in Sources */,
+				0EBE615C1D2DED4900198CA9 /* VRDesciptionCollectionCell.swift in Sources */,
 				0E2F47971D0A531A007BB1D1 /* BaseViewController.swift in Sources */,
 				0E491FF81D2B5ED500ADAB6F /* VRProjectsViewController.swift in Sources */,
+				0E3F9E521D2D03E100FEE5FA /* VRProjectDetailViewController.swift in Sources */,
 				12CD723B1D09B07C00282ED1 /* VuResumeUITests.swift in Sources */,
-				0E2F47E21D0AA7F4007BB1D1 /* ProfileFlowLayout.swift in Sources */,
-				0E2F47A21D0A5502007BB1D1 /* CoverHeaderView.swift in Sources */,
-				0E2F47BF1D0A5D7F007BB1D1 /* DesciptionViewCell.swift in Sources */,
-				0E2F47CF1D0A61EA007BB1D1 /* ContentHeaderView.swift in Sources */,
+				0E2F47E21D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift in Sources */,
+				0E2F47A21D0A5502007BB1D1 /* VRCoverHeaderView.swift in Sources */,
+				0E2F47BF1D0A5D7F007BB1D1 /* VRDesciptionViewCell.swift in Sources */,
+				0EBE61651D2DEF5900198CA9 /* VRProjectDetailDataSource.swift in Sources */,
+				0E2F47CF1D0A61EA007BB1D1 /* VRContentHeaderView.swift in Sources */,
 				0E4920021D2BA56E00ADAB6F /* DismissSegue.swift in Sources */,
-				0E2F47AB1D0A575F007BB1D1 /* AvarViewCell.swift in Sources */,
+				0E2F47AB1D0A575F007BB1D1 /* VRAvarViewCell.swift in Sources */,
+				0E3F9E4A1D2CF58C00FEE5FA /* VRProjectCell.swift in Sources */,
+				0EBE617F1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

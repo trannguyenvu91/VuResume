@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ContentHeaderView: UICollectionReusableView {
+class VRContentHeaderView: UICollectionReusableView {
 
     @IBOutlet weak var titleLabel: UILabel!
     override func awakeFromNib() {
@@ -33,7 +33,7 @@ class ContentHeaderView: UICollectionReusableView {
     }
     
     class func nibFile() -> UINib {
-        return UINib.init(nibName: "ContentHeaderView", bundle: NSBundle.mainBundle())
+        return UINib.init(nibName: "VRContentHeaderView", bundle: NSBundle.mainBundle())
     }
     
     class func sizeForContentHeaderView() -> CGSize {

@@ -98,6 +98,9 @@
 		0EBE61781D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61771D2E176D00198CA9 /* VRExperienceDataSource.swift */; };
 		0EBE61791D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61771D2E176D00198CA9 /* VRExperienceDataSource.swift */; };
 		0EBE617A1D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE61771D2E176D00198CA9 /* VRExperienceDataSource.swift */; };
+		0EBE617D1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */; };
+		0EBE617E1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */; };
+		0EBE617F1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */; };
 		1248DAD31D0D7E4300DEBA97 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */; };
 		1248DAD41D0D7E4300DEBA97 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */; };
 		1248DAD51D0D7E4300DEBA97 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */; };
@@ -162,6 +165,7 @@
 		0EBE616A1D2DFB8600198CA9 /* ImageCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionCell.swift; path = Projects/ImageCollectionCell.swift; sourceTree = "<group>"; };
 		0EBE616E1D2E15E300198CA9 /* VRExperienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRExperienceViewController.swift; path = Experience/VRExperienceViewController.swift; sourceTree = "<group>"; };
 		0EBE61771D2E176D00198CA9 /* VRExperienceDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRExperienceDataSource.swift; path = Experience/VRExperienceDataSource.swift; sourceTree = "<group>"; };
+		0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRPhotoViewController.swift; path = Base/VRPhotoViewController.swift; sourceTree = "<group>"; };
 		1248DAD21D0D7E4300DEBA97 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
 		12BECB971D2AB60E004A44FA /* btn-right-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-right-white.png"; sourceTree = "<group>"; };
 		12CD72171D09B07C00282ED1 /* VuResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VuResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +213,7 @@
 			children = (
 				0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */,
 				0E3F9E4B1D2CF96E00FEE5FA /* VRCollectionCell.swift */,
+				0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -533,6 +538,7 @@
 				0E4920001D2BA56E00ADAB6F /* DismissSegue.swift in Sources */,
 				0E2F47A91D0A575F007BB1D1 /* VRAvarViewCell.swift in Sources */,
 				0E3F9E481D2CF58C00FEE5FA /* VRProjectCell.swift in Sources */,
+				0EBE617D1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +569,7 @@
 				0E4920011D2BA56E00ADAB6F /* DismissSegue.swift in Sources */,
 				0E2F47AA1D0A575F007BB1D1 /* VRAvarViewCell.swift in Sources */,
 				0E3F9E491D2CF58C00FEE5FA /* VRProjectCell.swift in Sources */,
+				0EBE617E1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +600,7 @@
 				0E4920021D2BA56E00ADAB6F /* DismissSegue.swift in Sources */,
 				0E2F47AB1D0A575F007BB1D1 /* VRAvarViewCell.swift in Sources */,
 				0E3F9E4A1D2CF58C00FEE5FA /* VRProjectCell.swift in Sources */,
+				0EBE617F1D2E586700198CA9 /* VRPhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

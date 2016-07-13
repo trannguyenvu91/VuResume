@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VRExperienceViewController: UIViewController, VRExperienceDataSourceDelegate {
+class VRExperienceViewController: VRBaseViewController, VRExperienceDataSourceDelegate {
 
     
     var dataSource:VRExperienceDataSource!

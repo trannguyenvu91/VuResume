@@ -291,7 +291,9 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Um8-FI-wJO">
                                                     <rect key="frame" x="8" y="21" width="304" height="53"/>
-                                                    <string key="text">Papelook Video Service. Create small socialvideos network between family’s members. They can share, gathervideo and send/delivery their video as a CD gift.</string>
+                                                    <string key="text">Papelook Video Service. Create small social
+videos network between family’s members. They can share, gather
+video and send/delivery their video as a CD gift.</string>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -503,7 +505,7 @@
         <!--Navigation Controller-->
         <scene sceneID="ebR-xs-9dA">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fgt-B7-aYH" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fgt-B7-aYH" customClass="VRNavigationController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9nc-Zw-ar7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -644,7 +646,8 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDa-tW-9j0">
                                                     <rect key="frame" x="8" y="21" width="304" height="54"/>
-                                                    <string key="text">I has joined the newly created software development team in USA. I has been involved in developing social app: iHeartLocalwhich was rewarded No.1 of CES 2016 Mobile App Showdown</string>
+                                                    <string key="text">I has joined the newly created software development team in USA. I has been involved in developing social app: iHeartLocal
+which was rewarded No.1 of CES 2016 Mobile App Showdown</string>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -792,7 +795,7 @@
         <!--Navigation Controller-->
         <scene sceneID="DCL-3i-8zw">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PwF-oe-BE9" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PwF-oe-BE9" customClass="VRNavigationController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pb9-qu-fVg">
@@ -811,7 +814,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Eeu-z7-5Hg">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hap-T5-s9d" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hap-T5-s9d" customClass="VRNavigationController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ASE-y3-2AE">

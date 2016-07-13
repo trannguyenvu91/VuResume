@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VRProjectsViewController: UIViewController, VRProjectsDataSourceDelegate {
+class VRProjectsViewController: VRBaseViewController, VRProjectsDataSourceDelegate {
     
     var dataSource:VRProjectsDataSource!
     @IBOutlet weak var collectionView: UICollectionView!

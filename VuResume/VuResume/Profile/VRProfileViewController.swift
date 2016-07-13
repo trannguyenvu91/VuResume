@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VRProfileViewController: BaseViewController, VRProfileDataSourceDelegate {
+class VRProfileViewController: VRBaseViewController, VRProfileDataSourceDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
     var dataSource:VRProfileDataSource!

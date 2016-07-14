@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VRProjectsViewController: UIViewController, VRProjectsDataSourceDelegate {
+class VRProjectsViewController: VRBaseViewController, VRProjectsDataSourceDelegate {
     
     var dataSource:VRProjectsDataSource!
     @IBOutlet weak var collectionView: UICollectionView!
@@ -26,15 +26,15 @@ class VRProjectsViewController: UIViewController, VRProjectsDataSourceDelegate {
         
     }
     
-
+    deinit {
+        
+    }
     //MARK: - VRProjectsDataSourceDelegate
     func projectsDataSource(dataSource: VRProjectsDataSource, openProjectBySelectingAtIndexPath indexPath: NSIndexPath) {
         
     }
     
     
-    
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -42,6 +42,5 @@ class VRProjectsViewController: UIViewController, VRProjectsDataSourceDelegate {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
 
 }

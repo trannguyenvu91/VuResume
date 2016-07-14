@@ -9,7 +9,7 @@
         <!--Profile View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="VRProfileViewController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VRProfileViewController" id="BYZ-38-t0r" customClass="VRProfileViewController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -242,7 +242,7 @@
                                             <outlet property="sub2Label" destination="mnh-xQ-w5M" id="kIw-Xm-QSJ"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VRDesciptionCollectionCell" id="Ecj-r8-eEU" customClass="VRDesciptionCollectionCell" customModule="VuResume" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" reuseIdentifier="VRDesciptionCollectionCell" id="Ecj-r8-eEU" customClass="VRDesciptionCollectionCell" customModule="VuResume" customModuleProvider="target">
                                         <rect key="frame" x="4" y="154" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -291,7 +291,9 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Um8-FI-wJO">
                                                     <rect key="frame" x="8" y="21" width="304" height="53"/>
-                                                    <string key="text">Papelook Video Service. Create small socialvideos network between family’s members. They can share, gathervideo and send/delivery their video as a CD gift.</string>
+                                                    <string key="text">Papelook Video Service. Create small social
+videos network between family’s members. They can share, gather
+video and send/delivery their video as a CD gift.</string>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -503,7 +505,7 @@
         <!--Navigation Controller-->
         <scene sceneID="ebR-xs-9dA">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fgt-B7-aYH" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fgt-B7-aYH" customClass="VRNavigationController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9nc-Zw-ar7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -574,6 +576,7 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Xah-Lx-Ofs" secondAttribute="trailing" constant="10" id="NAf-mU-qfm"/>
                                             <constraint firstItem="Xah-Lx-Ofs" firstAttribute="leading" secondItem="Bbt-en-K5d" secondAttribute="trailing" constant="9" id="WZb-nl-GcX"/>
@@ -644,7 +647,8 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDa-tW-9j0">
                                                     <rect key="frame" x="8" y="21" width="304" height="54"/>
-                                                    <string key="text">I has joined the newly created software development team in USA. I has been involved in developing social app: iHeartLocalwhich was rewarded No.1 of CES 2016 Mobile App Showdown</string>
+                                                    <string key="text">I has joined the newly created software development team in USA. I has been involved in developing social app: iHeartLocal
+which was rewarded No.1 of CES 2016 Mobile App Showdown</string>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -792,7 +796,7 @@
         <!--Navigation Controller-->
         <scene sceneID="DCL-3i-8zw">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PwF-oe-BE9" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PwF-oe-BE9" customClass="VRNavigationController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pb9-qu-fVg">
@@ -811,7 +815,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Eeu-z7-5Hg">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hap-T5-s9d" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hap-T5-s9d" customClass="VRNavigationController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ASE-y3-2AE">

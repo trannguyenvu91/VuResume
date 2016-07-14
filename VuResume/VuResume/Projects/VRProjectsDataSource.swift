@@ -29,6 +29,10 @@ class VRProjectsDataSource: NSObject, UICollectionViewDelegate, UICollectionView
         commonInit()
     }
     
+    deinit {
+        
+    }
+    
     func commonInit() {
         
         collectionView.delegate = self

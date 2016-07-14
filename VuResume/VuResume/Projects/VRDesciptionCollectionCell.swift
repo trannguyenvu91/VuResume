@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VRDesciptionCollectionCell: VRCollectionCell {
+class VRDesciptionCollectionCell: UICollectionViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var detailLabel: UILabel!

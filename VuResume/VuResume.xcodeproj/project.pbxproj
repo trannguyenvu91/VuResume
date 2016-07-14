@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E2F47951D0A531A007BB1D1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */; };
-		0E2F47961D0A531A007BB1D1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */; };
-		0E2F47971D0A531A007BB1D1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */; };
+		0E2F47951D0A531A007BB1D1 /* VRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47941D0A531A007BB1D1 /* VRBaseViewController.swift */; };
+		0E2F47961D0A531A007BB1D1 /* VRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47941D0A531A007BB1D1 /* VRBaseViewController.swift */; };
+		0E2F47971D0A531A007BB1D1 /* VRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47941D0A531A007BB1D1 /* VRBaseViewController.swift */; };
 		0E2F479A1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47991D0A53C3007BB1D1 /* VRProfileViewController.swift */; };
 		0E2F479B1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47991D0A53C3007BB1D1 /* VRProfileViewController.swift */; };
 		0E2F479C1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F47991D0A53C3007BB1D1 /* VRProfileViewController.swift */; };
@@ -70,6 +70,21 @@
 		0E4920001D2BA56E00ADAB6F /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E491FFF1D2BA56E00ADAB6F /* DismissSegue.swift */; };
 		0E4920011D2BA56E00ADAB6F /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E491FFF1D2BA56E00ADAB6F /* DismissSegue.swift */; };
 		0E4920021D2BA56E00ADAB6F /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E491FFF1D2BA56E00ADAB6F /* DismissSegue.swift */; };
+		0E67C0871D36236B00A1AE34 /* VRBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C0861D36236B00A1AE34 /* VRBaseAnimation.swift */; };
+		0E67C0881D36236B00A1AE34 /* VRBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C0861D36236B00A1AE34 /* VRBaseAnimation.swift */; };
+		0E67C0891D36236B00A1AE34 /* VRBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C0861D36236B00A1AE34 /* VRBaseAnimation.swift */; };
+		0E67C08C1D362A3700A1AE34 /* VRPopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C08B1D362A3700A1AE34 /* VRPopAnimation.swift */; };
+		0E67C08D1D362A3700A1AE34 /* VRPopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C08B1D362A3700A1AE34 /* VRPopAnimation.swift */; };
+		0E67C08E1D362A3700A1AE34 /* VRPopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C08B1D362A3700A1AE34 /* VRPopAnimation.swift */; };
+		0E67C0901D36317100A1AE34 /* VRNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C08F1D36317100A1AE34 /* VRNavigationControllerDelegate.swift */; };
+		0E67C0911D36317100A1AE34 /* VRNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C08F1D36317100A1AE34 /* VRNavigationControllerDelegate.swift */; };
+		0E67C0921D36317100A1AE34 /* VRNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C08F1D36317100A1AE34 /* VRNavigationControllerDelegate.swift */; };
+		0E67C0941D36365800A1AE34 /* VRNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C0931D36365800A1AE34 /* VRNavigationController.swift */; };
+		0E67C0951D36365800A1AE34 /* VRNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C0931D36365800A1AE34 /* VRNavigationController.swift */; };
+		0E67C0961D36365800A1AE34 /* VRNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C0931D36365800A1AE34 /* VRNavigationController.swift */; };
+		0EA86FF11D371D830075F119 /* VRInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA86FF01D371D830075F119 /* VRInteractionController.swift */; };
+		0EA86FF21D371D830075F119 /* VRInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA86FF01D371D830075F119 /* VRInteractionController.swift */; };
+		0EA86FF31D371D830075F119 /* VRInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA86FF01D371D830075F119 /* VRInteractionController.swift */; };
 		0EAF78591D0ABED900FFB1F3 /* VRItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF78581D0ABED900FFB1F3 /* VRItemViewCell.xib */; };
 		0EAF785B1D0ABEF900FFB1F3 /* VRContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* VRContentHeaderView.xib */; };
 		0EAF785C1D0ABEF900FFB1F3 /* VRContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF785A1D0ABEF900FFB1F3 /* VRContentHeaderView.xib */; };
@@ -134,7 +149,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Base/BaseViewController.swift; sourceTree = "<group>"; };
+		0E2F47941D0A531A007BB1D1 /* VRBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRBaseViewController.swift; path = Base/VRBaseViewController.swift; sourceTree = "<group>"; };
 		0E2F47991D0A53C3007BB1D1 /* VRProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProfileViewController.swift; path = Profile/VRProfileViewController.swift; sourceTree = "<group>"; };
 		0E2F479E1D0A5502007BB1D1 /* VRCoverHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRCoverHeaderView.swift; path = Profile/VRCoverHeaderView.swift; sourceTree = "<group>"; };
 		0E2F479F1D0A5502007BB1D1 /* VRCoverHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VRCoverHeaderView.xib; path = Profile/VRCoverHeaderView.xib; sourceTree = "<group>"; };
@@ -155,6 +170,11 @@
 		0E3F9E4F1D2D03E100FEE5FA /* VRProjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProjectDetailViewController.swift; path = Projects/VRProjectDetailViewController.swift; sourceTree = "<group>"; };
 		0E491FF51D2B5ED500ADAB6F /* VRProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRProjectsViewController.swift; path = Projects/VRProjectsViewController.swift; sourceTree = "<group>"; };
 		0E491FFF1D2BA56E00ADAB6F /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DismissSegue.swift; path = Utilities/DismissSegue.swift; sourceTree = "<group>"; };
+		0E67C0861D36236B00A1AE34 /* VRBaseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRBaseAnimation.swift; path = Base/VRBaseAnimation.swift; sourceTree = "<group>"; };
+		0E67C08B1D362A3700A1AE34 /* VRPopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRPopAnimation.swift; path = Base/VRPopAnimation.swift; sourceTree = "<group>"; };
+		0E67C08F1D36317100A1AE34 /* VRNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRNavigationControllerDelegate.swift; path = Base/VRNavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		0E67C0931D36365800A1AE34 /* VRNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRNavigationController.swift; path = Base/VRNavigationController.swift; sourceTree = "<group>"; };
+		0EA86FF01D371D830075F119 /* VRInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRInteractionController.swift; path = Base/VRInteractionController.swift; sourceTree = "<group>"; };
 		0EAF78581D0ABED900FFB1F3 /* VRItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VRItemViewCell.xib; sourceTree = "<group>"; };
 		0EAF785A1D0ABEF900FFB1F3 /* VRContentHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VRContentHeaderView.xib; sourceTree = "<group>"; };
 		0EBE61551D2DE82100198CA9 /* btn-AppStore-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-AppStore-white.png"; sourceTree = "<group>"; };
@@ -211,9 +231,11 @@
 		0E2F47981D0A533A007BB1D1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				0E2F47941D0A531A007BB1D1 /* BaseViewController.swift */,
+				0E67C0931D36365800A1AE34 /* VRNavigationController.swift */,
+				0E2F47941D0A531A007BB1D1 /* VRBaseViewController.swift */,
 				0E3F9E4B1D2CF96E00FEE5FA /* VRCollectionCell.swift */,
 				0EBE617C1D2E586700198CA9 /* VRPhotoViewController.swift */,
+				0E67C08A1D36237100A1AE34 /* Animation */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -266,6 +288,17 @@
 				0E491FFF1D2BA56E00ADAB6F /* DismissSegue.swift */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		0E67C08A1D36237100A1AE34 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				0E67C0861D36236B00A1AE34 /* VRBaseAnimation.swift */,
+				0E67C08B1D362A3700A1AE34 /* VRPopAnimation.swift */,
+				0E67C08F1D36317100A1AE34 /* VRNavigationControllerDelegate.swift */,
+				0EA86FF01D371D830075F119 /* VRInteractionController.swift */,
+			);
+			name = Animation;
 			sourceTree = "<group>";
 		};
 		0EBE615D1D2DED8900198CA9 /* SubView */ = {
@@ -515,19 +548,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E67C0901D36317100A1AE34 /* VRNavigationControllerDelegate.swift in Sources */,
 				0EBE616B1D2DFB8600198CA9 /* ImageCollectionCell.swift in Sources */,
 				0E3F9E4C1D2CF96E00FEE5FA /* VRCollectionCell.swift in Sources */,
+				0E67C0941D36365800A1AE34 /* VRNavigationController.swift in Sources */,
 				0EBE61701D2E15E300198CA9 /* VRExperienceViewController.swift in Sources */,
 				0E2F47D51D0A6201007BB1D1 /* VRItemViewCell.swift in Sources */,
 				0E2F47DC1D0A6272007BB1D1 /* VRProfileDataSource.swift in Sources */,
+				0E67C0871D36236B00A1AE34 /* VRBaseAnimation.swift in Sources */,
 				0E3F9E441D2CF02400FEE5FA /* VRProjectsDataSource.swift in Sources */,
 				0EBE61781D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */,
+				0EA86FF11D371D830075F119 /* VRInteractionController.swift in Sources */,
 				0EBE61671D2DFA4000198CA9 /* VRScreenShotDataSource.swift in Sources */,
 				0E2F479A1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */,
 				0EBE615F1D2DEDE400198CA9 /* VRScreenShotCell.swift in Sources */,
 				0EBE615A1D2DED4900198CA9 /* VRDesciptionCollectionCell.swift in Sources */,
-				0E2F47951D0A531A007BB1D1 /* BaseViewController.swift in Sources */,
+				0E2F47951D0A531A007BB1D1 /* VRBaseViewController.swift in Sources */,
 				0E491FF61D2B5ED500ADAB6F /* VRProjectsViewController.swift in Sources */,
+				0E67C08C1D362A3700A1AE34 /* VRPopAnimation.swift in Sources */,
 				0E3F9E501D2D03E100FEE5FA /* VRProjectDetailViewController.swift in Sources */,
 				12CD721B1D09B07C00282ED1 /* AppDelegate.swift in Sources */,
 				0E2F47E01D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift in Sources */,
@@ -546,19 +584,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E67C0911D36317100A1AE34 /* VRNavigationControllerDelegate.swift in Sources */,
 				0EBE616C1D2DFB8600198CA9 /* ImageCollectionCell.swift in Sources */,
 				0E3F9E4D1D2CF96E00FEE5FA /* VRCollectionCell.swift in Sources */,
+				0E67C0951D36365800A1AE34 /* VRNavigationController.swift in Sources */,
 				0EBE61711D2E15E300198CA9 /* VRExperienceViewController.swift in Sources */,
 				0E2F47D61D0A6201007BB1D1 /* VRItemViewCell.swift in Sources */,
 				0E2F47DD1D0A6272007BB1D1 /* VRProfileDataSource.swift in Sources */,
+				0E67C0881D36236B00A1AE34 /* VRBaseAnimation.swift in Sources */,
 				0E3F9E451D2CF02400FEE5FA /* VRProjectsDataSource.swift in Sources */,
 				0EBE61791D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */,
+				0EA86FF21D371D830075F119 /* VRInteractionController.swift in Sources */,
 				0EBE61681D2DFA4000198CA9 /* VRScreenShotDataSource.swift in Sources */,
 				0E2F479B1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */,
 				0EBE61601D2DEDE400198CA9 /* VRScreenShotCell.swift in Sources */,
 				0EBE615B1D2DED4900198CA9 /* VRDesciptionCollectionCell.swift in Sources */,
-				0E2F47961D0A531A007BB1D1 /* BaseViewController.swift in Sources */,
+				0E2F47961D0A531A007BB1D1 /* VRBaseViewController.swift in Sources */,
 				0E491FF71D2B5ED500ADAB6F /* VRProjectsViewController.swift in Sources */,
+				0E67C08D1D362A3700A1AE34 /* VRPopAnimation.swift in Sources */,
 				0E3F9E511D2D03E100FEE5FA /* VRProjectDetailViewController.swift in Sources */,
 				12CD72301D09B07C00282ED1 /* VuResumeTests.swift in Sources */,
 				0E2F47E11D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift in Sources */,
@@ -577,19 +620,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E67C0921D36317100A1AE34 /* VRNavigationControllerDelegate.swift in Sources */,
 				0EBE616D1D2DFB8600198CA9 /* ImageCollectionCell.swift in Sources */,
 				0E3F9E4E1D2CF96E00FEE5FA /* VRCollectionCell.swift in Sources */,
+				0E67C0961D36365800A1AE34 /* VRNavigationController.swift in Sources */,
 				0EBE61721D2E15E300198CA9 /* VRExperienceViewController.swift in Sources */,
 				0E2F47D71D0A6201007BB1D1 /* VRItemViewCell.swift in Sources */,
 				0E2F47DE1D0A6272007BB1D1 /* VRProfileDataSource.swift in Sources */,
+				0E67C0891D36236B00A1AE34 /* VRBaseAnimation.swift in Sources */,
 				0E3F9E461D2CF02400FEE5FA /* VRProjectsDataSource.swift in Sources */,
 				0EBE617A1D2E176D00198CA9 /* VRExperienceDataSource.swift in Sources */,
+				0EA86FF31D371D830075F119 /* VRInteractionController.swift in Sources */,
 				0EBE61691D2DFA4000198CA9 /* VRScreenShotDataSource.swift in Sources */,
 				0E2F479C1D0A53C3007BB1D1 /* VRProfileViewController.swift in Sources */,
 				0EBE61611D2DEDE400198CA9 /* VRScreenShotCell.swift in Sources */,
 				0EBE615C1D2DED4900198CA9 /* VRDesciptionCollectionCell.swift in Sources */,
-				0E2F47971D0A531A007BB1D1 /* BaseViewController.swift in Sources */,
+				0E2F47971D0A531A007BB1D1 /* VRBaseViewController.swift in Sources */,
 				0E491FF81D2B5ED500ADAB6F /* VRProjectsViewController.swift in Sources */,
+				0E67C08E1D362A3700A1AE34 /* VRPopAnimation.swift in Sources */,
 				0E3F9E521D2D03E100FEE5FA /* VRProjectDetailViewController.swift in Sources */,
 				12CD723B1D09B07C00282ED1 /* VuResumeUITests.swift in Sources */,
 				0E2F47E21D0AA7F4007BB1D1 /* VRProfileFlowLayout.swift in Sources */,

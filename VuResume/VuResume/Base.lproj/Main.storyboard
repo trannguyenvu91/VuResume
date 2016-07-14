@@ -9,7 +9,7 @@
         <!--Profile View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="VRProfileViewController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VRProfileViewController" id="BYZ-38-t0r" customClass="VRProfileViewController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -242,7 +242,7 @@
                                             <outlet property="sub2Label" destination="mnh-xQ-w5M" id="kIw-Xm-QSJ"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VRDesciptionCollectionCell" id="Ecj-r8-eEU" customClass="VRDesciptionCollectionCell" customModule="VuResume" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" reuseIdentifier="VRDesciptionCollectionCell" id="Ecj-r8-eEU" customClass="VRDesciptionCollectionCell" customModule="VuResume" customModuleProvider="target">
                                         <rect key="frame" x="4" y="154" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -576,6 +576,7 @@ video and send/delivery their video as a CD gift.</string>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Xah-Lx-Ofs" secondAttribute="trailing" constant="10" id="NAf-mU-qfm"/>
                                             <constraint firstItem="Xah-Lx-Ofs" firstAttribute="leading" secondItem="Bbt-en-K5d" secondAttribute="trailing" constant="9" id="WZb-nl-GcX"/>

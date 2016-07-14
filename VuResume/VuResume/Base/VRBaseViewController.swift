@@ -10,7 +10,8 @@ import UIKit
 
 class VRBaseViewController: UIViewController, UIViewControllerTransitioningDelegate {
     
-    var popAnimation:VRPopAnimation?
+    private var popAnimation:VRPopAnimation?
+    private var swipeInteractionController:VRInteractionController?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,13 +24,24 @@ class VRBaseViewController: UIViewController, UIViewControllerTransitioningDeleg
         // Dispose of any resources that can be recreated.
     }
     
+    deinit {
+        
+    }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let sourceVC = segue.sourceViewController
         if sourceVC.isKindOfClass(VRProfileViewController) {
             sourceVC.modalPresentationStyle = UIModalPresentationStyle.Custom
-            let destinationVC = segue.destinationViewController
-            popAnimation = VRPopAnimation()
-            destinationVC.transitioningDelegate = self
+            
+            
+            if let destinationVC = segue.destinationViewController as? UINavigationController {
+                
+                popAnimation = VRPopAnimation()
+                destinationVC.transitioningDelegate = self
+                swipeInteractionController = VRInteractionController()
+                swipeInteractionController?.wireToViewController(destinationVC.viewControllers.first)
+            }
+            
         }
     }
     
@@ -43,7 +55,7 @@ class VRBaseViewController: UIViewController, UIViewControllerTransitioningDeleg
         return popAnimation
     }
     
-//    func interactionControllerForDismissal(animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-//        return swipeInteractionController.interactionInProgress ? swipeInteractionController : nil
-//    }
+    func interactionControllerForDismissal(animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+        return swipeInteractionController!.interactionInProgress ? swipeInteractionController : nil
+    }
 }

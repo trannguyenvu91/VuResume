@@ -11,7 +11,7 @@ import UIKit
 class VRPopAnimation: VRBaseAnimation {
     
     override func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
-        return 0.25
+        return 0.45
     }
     
     //MARK - Animated Transitioning
@@ -30,34 +30,37 @@ class VRPopAnimation: VRBaseAnimation {
         case AnimationType.Present:
             startFrameForToView = CGRectMake( CGRectGetWidth(fromView.frame), CGRectGetMinY(toView.frame), CGRectGetWidth(toView.frame), CGRectGetHeight(toView.frame))
             endFrameForToView = CGRectMake( 0, CGRectGetMinY(toView.frame), CGRectGetWidth(toView.frame), CGRectGetHeight(toView.frame))
-            endFrameForFromView = CGRectMake( -CGRectGetWidth(fromView.frame) / 2, CGRectGetMinY(toView.frame), CGRectGetWidth(toView.frame), CGRectGetHeight(toView.frame))
-            
+            endFrameForFromView = CGRectMake( -CGRectGetWidth(fromView.frame) / 2.5, CGRectGetMinY(toView.frame), CGRectGetWidth(toView.frame), CGRectGetHeight(toView.frame))
             
             containerView?.insertSubview(toView, aboveSubview: fromView)
             break
         case AnimationType.Dismiss:
-            startFrameForToView = CGRectMake( -CGRectGetWidth(toView.frame) / 2.0, CGRectGetMinY(toView.frame), CGRectGetWidth(toView.frame), CGRectGetHeight(toView.frame))
+            startFrameForToView = CGRectMake( -CGRectGetWidth(toView.frame) / 2.5, CGRectGetMinY(toView.frame), CGRectGetWidth(toView.frame), CGRectGetHeight(toView.frame))
             endFrameForToView = CGRectMake( 0, CGRectGetMinY(toView.frame), CGRectGetWidth(toView.frame), CGRectGetHeight(toView.frame))
             endFrameForFromView = CGRectMake( CGRectGetWidth(toView.frame), CGRectGetMinY(fromView.frame), CGRectGetWidth(fromView.frame), CGRectGetHeight(fromView.frame))
-            
             
             containerView?.insertSubview(toView, belowSubview: fromView)
             break
         }
         
         
-        
         toView.frame = startFrameForToView
         
-        UIView.animateKeyframesWithDuration(transitionDuration(transitionContext),
-                                             delay: 0,
-                                             options: UIViewKeyframeAnimationOptions.AllowUserInteraction,
-                                             animations: { 
-                                                
-                                                toView.frame = endFrameForToView
-                                                fromView.frame = endFrameForFromView
-            }) { (finished) in
-                transitionContext.completeTransition(!transitionContext.transitionWasCancelled())
+        UIView.animateWithDuration(transitionDuration(transitionContext),
+                                   delay: 0,
+                                   usingSpringWithDamping: 1.2,
+                                   initialSpringVelocity: 0.9,
+                                   options: UIViewAnimationOptions.CurveEaseOut,
+                                   animations: {
+                                    
+                                    toView.frame = endFrameForToView
+                                    fromView.frame = endFrameForFromView
+                                    
+        }) { (finished) in
+            transitionContext.completeTransition(!transitionContext.transitionWasCancelled())
+            if !transitionContext.transitionWasCancelled() {
+                fromView.removeFromSuperview()
+            }
         }
         
     }

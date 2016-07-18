@@ -44,6 +44,7 @@
                         <segue destination="fgt-B7-aYH" kind="presentation" identifier="Projects" id="nQz-Hs-9zr"/>
                         <segue destination="PwF-oe-BE9" kind="presentation" identifier="Experience" id="q8r-Z4-gfQ"/>
                         <segue destination="hap-T5-s9d" kind="presentation" identifier="Competences" id="Dle-34-uWv"/>
+                        <segue destination="sXE-3A-nOh" kind="presentation" identifier="Address" id="xWO-gv-uRM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -73,7 +74,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VRProjectCell" id="1Ah-t4-h1E" customClass="VRProjectCell" customModule="VuResume" customModuleProvider="target">
-                                        <rect key="frame" x="4" y="64" width="321" height="92"/>
+                                        <rect key="frame" x="3.5" y="64" width="321" height="92"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="321" height="92"/>
@@ -208,7 +209,7 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zba-v0-gkm">
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zba-v0-gkm">
                                                     <rect key="frame" x="242" y="33" width="70" height="24"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="Zba-v0-gkm" secondAttribute="height" multiplier="671:239" id="KlE-jT-IT4"/>
@@ -334,7 +335,7 @@ video and send/delivery their video as a CD gift.</string>
                                                     </collectionViewFlowLayout>
                                                     <cells>
                                                         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageCollectionCell" id="y6a-gR-l7x" customClass="ImageCollectionCell" customModule="VuResume" customModuleProvider="target">
-                                                            <rect key="frame" x="8" y="3" width="109" height="169"/>
+                                                            <rect key="frame" x="8" y="2.5" width="109" height="169"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                                 <rect key="frame" x="0.0" y="0.0" width="109" height="169"/>
@@ -459,7 +460,7 @@ video and send/delivery their video as a CD gift.</string>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" reuseIdentifier="ImageCollectionCell" id="4mB-eW-lSF" customClass="ImageCollectionCell" customModule="VuResume" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="63" width="320" height="505"/>
+                                        <rect key="frame" x="0.0" y="63.5" width="320" height="505"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="505"/>
@@ -543,7 +544,7 @@ video and send/delivery their video as a CD gift.</string>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VRProjectCell" id="Kkh-41-4gR" customClass="VRProjectCell" customModule="VuResume" customModuleProvider="target">
-                                        <rect key="frame" x="4" y="64" width="321" height="92"/>
+                                        <rect key="frame" x="3.5" y="64" width="321" height="92"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="321" height="92"/>
@@ -671,7 +672,7 @@ which was rewarded No.1 of CES 2016 Mobile App Showdown</string>
                                         </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VRScreenShotCell" id="7z6-pK-jxr" customClass="VRScreenShotCell" customModule="VuResume" customModuleProvider="target">
-                                        <rect key="frame" x="4" y="302" width="321" height="92"/>
+                                        <rect key="frame" x="3.5" y="302" width="321" height="92"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="321" height="92"/>
@@ -767,6 +768,43 @@ which was rewarded No.1 of CES 2016 Mobile App Showdown</string>
             </objects>
             <point key="canvasLocation" x="429" y="405"/>
         </scene>
+        <!--Address-->
+        <scene sceneID="ZnV-1y-dcZ">
+            <objects>
+                <viewController id="vju-9l-teJ" customClass="VRBaseViewController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bnz-Zz-Z2i"/>
+                        <viewControllerLayoutGuide type="bottom" id="of6-0T-9PD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IfA-nV-sGl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lpo-hE-nYk">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lpo-hE-nYk" firstAttribute="top" secondItem="IfA-nV-sGl" secondAttribute="topMargin" id="1O9-Ko-Heo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lpo-hE-nYk" secondAttribute="trailing" constant="-20" id="53j-I6-sv8"/>
+                            <constraint firstItem="lpo-hE-nYk" firstAttribute="leading" secondItem="IfA-nV-sGl" secondAttribute="leadingMargin" constant="-20" id="54g-JL-6XT"/>
+                            <constraint firstItem="of6-0T-9PD" firstAttribute="top" secondItem="lpo-hE-nYk" secondAttribute="bottom" id="6dl-oQ-rNP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Address" id="23a-xK-wvQ">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="kxC-fq-NXN">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="custom" customClass="DismissSegue" customModule="VuResume" id="ZAg-iL-cdc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yXk-Q8-aXm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="429" y="1761"/>
+        </scene>
         <!--Competences-->
         <scene sceneID="4aO-HC-epg">
             <objects>
@@ -831,6 +869,25 @@ which was rewarded No.1 of CES 2016 Mobile App Showdown</string>
             </objects>
             <point key="canvasLocation" x="-202" y="1079"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QEg-YM-AqM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sXE-3A-nOh" customClass="VRNavigationController" customModule="VuResume" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ML5-hr-7PA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vju-9l-teJ" kind="relationship" relationship="rootViewController" id="dQc-Co-KfQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T9l-rU-8ht" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-467" y="1761"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ava.jpg" width="1599" height="1602"/>
@@ -838,7 +895,7 @@ which was rewarded No.1 of CES 2016 Mobile App Showdown</string>
         <image name="cover1.jpg" width="905" height="543"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Xjx-l3-8Yh"/>
-        <segue reference="DNf-5s-4j9"/>
+        <segue reference="ZAg-iL-cdc"/>
+        <segue reference="g0d-fc-c9H"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -44,6 +44,10 @@ class VRProfileViewController: VRBaseViewController, VRProfileDataSourceDelegate
             } else if indexPath.row == 3 {
                 performSegueWithIdentifier("Competences", sender: self)
             }
+        } else if indexPath.section == 2 {
+            if indexPath.row == 3 {
+                performSegueWithIdentifier("Address", sender: self)
+            }
         }
         
         
